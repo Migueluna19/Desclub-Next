@@ -1,0 +1,109 @@
+.contenedor{
+    background-image: url(../public/img/Fondoindex.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    .logodesclub{
+        width: 100%;
+        padding: 3rem 0;
+        img{
+            margin:0 auto;
+            width: 50rem;
+            height: 10rem;
+        }
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: 0 auto;
+    gap: 6rem;
+    row-gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    .empresas{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+        .fondonaranja{
+            background-color: #FF7400;
+            width: 35rem;
+            h1{
+                font-size: 4rem;
+            }
+           }
+    }
+    .tarjetadesclub{
+        position: relative;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        .fondonaranja{
+            background-color: #FF7400;
+            width: 25.5rem;
+            h1{
+                font-size: 4.5rem;
+            }
+           }
+    } 
+    .imagen{
+        width: 90%;
+        margin: 0 auto;
+        img{
+            height: 33rem;
+        }
+    }
+    .titulos{
+        position: absolute;
+        bottom: -2rem;
+        left:5rem;
+       h1{
+        color: #FFF;
+        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        font-weight: 600;
+        font-size: 5.8rem;
+        line-height: 5rem;
+        text-align: left;
+        text-transform: uppercase;
+       }
+    }
+   .texto{
+    width: 70%;
+    margin-left: 5rem;
+    p{
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        color: #FFF;
+    }
+   }
+    
+}
+.footer{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    .footer_enlace{
+        border-top: 1px solid #FFF;
+        padding-top: 1rem;
+        color: #FFF;
+        a{
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #FFF;
+        }
+        p{
+            color: #FFF;
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 300;
+        }
+    }
+    .footer_imagen{
+        img{
+            width: 23rem;
+            height: 3rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}

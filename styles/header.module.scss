@@ -1,0 +1,44 @@
+.header{
+    background-color: #FFF;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: max-content;
+    margin: 2rem 0;
+    display: flex;
+    // @include tablet{
+    //     &.fijo{
+    //         left: 0;
+    //         top: 0;
+    //         position: fixed;
+    //         width: 100%;
+    //         z-index: 20;
+    //     }
+    // }
+}
+.logomarca{
+    margin-left: 2rem;
+    img{
+        width: 20rem;
+        height: 3.5rem;
+    }
+}
+.contenedornavegacion{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .navegacion{
+        width: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 7rem;
+        a{
+            color: #5C5B5B;
+            font-size: 2rem;
+            font-family: 'Roboto',sans-serif;
+            font-weight: 400    ;
+        }
+    }
+}

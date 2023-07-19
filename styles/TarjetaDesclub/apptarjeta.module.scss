@@ -1,0 +1,156 @@
+.fondoprincipal{
+    background-image: url(../../public/img/DegradadoAppyTarjeta.svg);
+    height: auto;
+    h1{
+        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        color: #FFF;
+        font-size: 5.5rem;
+        padding-top: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin:5rem 0 10rem 0;
+}
+.centra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorbeneficios{
+    border: 2px solid #FFF;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+}
+.titulostexto{
+    margin: 1.5rem 0;
+    p{
+        font-family: 'Roboto',sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        color: #FFF;
+        line-height: 2.5rem;
+    }
+}
+.gridimagenes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2rem 0;
+    gap: 2rem;
+    width: 80%;
+    .gridbeneficios{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 6rem;
+            height: 10rem;
+        }
+        h4{
+            font-family: 'Roboto',sans-serif;
+            color: #FFF;
+            text-align: center;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+.contenidobeneficios{
+    margin: 2rem 0 5rem 0;
+p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #FFF;
+    line-height: 3.5rem;
+    margin: 0 2rem;
+    font-style: italic;
+}
+}
+.centrado{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.acomoda{
+    width: 50%;
+    margin-left: 5rem;
+    .telefono{
+        img{
+            height: 48rem;
+        }
+    }
+    .stores{
+        img{
+            height: 4.2rem;
+        }
+    }
+}
+.boton{
+    margin-top: 3rem;
+    border-radius: 4rem;
+    padding: 0.5rem 5rem;
+    background-color:  #FF7400;
+    color: #FFF;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    text-align: left;
+}
+.boton:hover{
+    background-color:  darken(#FF7400,5);;
+    cursor: pointer;
+}
+.gridservicios{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    width: 85%;
+    padding-bottom: 5rem;
+    .servicio{
+        border: 2px solid #FFF;
+        border-radius: 3rem;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 8.5rem;
+            height: 8rem;
+        }
+        h2{
+            color: #FFF;
+            font-family: 'Roboto',sans-serif;
+            font-size: 3rem;
+            margin: 2rem 0;
+            font-weight: 600;
+            width: 85%;
+            line-height: 3.5rem;
+        }
+        .textoservicio{
+            width: 65%;
+            p{
+                text-align: center;
+                color: #FFF;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 800;
+                line-height: 3.2rem;
+            }
+        }
+    }
+
+}

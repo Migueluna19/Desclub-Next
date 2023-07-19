@@ -1,0 +1,248 @@
+//Variables globales
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-Light.otf') format('otf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-Medium.otf') format('otf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-MediumItalic.otf') format('otf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-Book.otf') format('otf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-BookItalic.otf') format('otf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/benton/BentonSansBBVA-Bold.otf') format('otf');
+  font-style:normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  &.body-scroll{
+      padding-top: 10rem;
+  }
+}
+p {
+  font-size: 2rem;
+  margin: 0;
+}
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+
+
+.centra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-mostrar{
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3,h4 {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.6rem;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+//Estilos Imagenes
+
+.imagen1{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen1::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadoeducacion.svg); 
+}
+.imagen2{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen2::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadoentretenimiento.png); 
+}
+.imagen3{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen3::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadoalimentos.png); 
+}
+.imagen4{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen4::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadodeportes.png); 
+}
+.imagen5{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen5::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadoturismo.png); 
+}
+.imagen6{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen6::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadobelleza.png); 
+}
+.imagen7{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen7::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadomoda.png); 
+}
+.imagen8{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen8::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadoservicios.png); 
+}
+.imagen9{
+  position: relative;
+  width: 100%;
+  img{
+      height: 100%;
+  }
+}
+.imagen9::before{
+position: absolute;
+content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+  background-image: url(../public/img/degradadotecnologia.png); 
+}

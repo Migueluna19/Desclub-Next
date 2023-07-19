@@ -1,0 +1,53 @@
+.principal{
+    background-image: url(../../public/img/fondoafiliar.png);
+    height: auto;
+    h1{
+        padding: 3rem 0;
+        text-transform: uppercase;
+        color: #FFF;
+        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        font-weight: bold;
+        font-size: 7rem;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    .razonafiliar{
+        border: 2px solid #FFF;
+        border-radius: 3rem;
+        padding: 5rem 0 2.5rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 7.5rem;
+            height: 7rem;
+        }
+        h2{
+            color: #FFF;
+            font-family: 'Roboto',sans-serif;
+            font-size: 3rem;
+            margin: 1rem 0;
+            font-weight: 600;
+            width: 70%;
+            line-height: 3.5rem;
+            text-transform: uppercase;
+        }
+        .textoservicio{
+            width: 65%;
+            p{
+                text-align: center;
+                color: #FFF;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 300;
+                line-height: 3rem;
+            }
+        }
+    }
+}

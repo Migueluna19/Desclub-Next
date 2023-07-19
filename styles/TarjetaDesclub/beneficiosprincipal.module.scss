@@ -1,0 +1,79 @@
+.contenidoprincipal{
+    height: auto;
+    background-image: url(../../public/img/fondo.png);
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+}
+// .degradado{
+//     background-image: url(../public/img/DegradadoMundoBeneficios.png);
+// }
+.imagenprincipal{
+    position: relative;
+   img{
+    height: 100%;
+   }
+}
+.imagenprincipal::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(../../public/img/DegradadoMundoBeneficios.png);
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    h1{
+    font-family: 'BentonSansBBVA-Bold',sans-serif;
+    font-weight: bold;
+    font-size: 10.5rem;
+    line-height: 9rem;
+    color: #158BC8;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 5rem;
+    }
+    .fondonaranja{
+        background-color: #FF7400;
+        width: 100%;
+        h1{
+            color: #FFF;
+            font-size: 7.5rem;
+            text-align: left;
+        }
+    }
+}
+.parrafo{
+    width: 90%;
+    margin: 3rem 0;
+    p{
+        color: #5C5B5B;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        margin: 2rem 0 2rem 5rem;
+        text-align: center;
+    }
+}
+.centra{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.logodesclub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    img{
+        width: 32rem;
+        height: 6rem;
+    }
+}
