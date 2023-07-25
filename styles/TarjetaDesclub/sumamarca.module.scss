@@ -88,14 +88,16 @@
         text-decoration: underline;
     }
 }
-.contenedorboton{
+.contenedorboton{ 
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
     .botonenviar{
+        display: flex;
+        align-items: center;
         margin-top: 1rem;
         border-radius: 4rem;
-        padding: 0.5rem 5rem;
+        padding: 0.5rem 2.5rem;
         background-color:  #FF7400;
         color: #FFF;
         border: none;
@@ -103,6 +105,9 @@
         font-weight: bold;
         font-family: 'Roboto',sans-serif;
         text-align: left;
+        img{
+            margin-left: 3rem;
+        }
     }
     .botonenviar:hover{
         background-color:  darken(#FF7400,5);;

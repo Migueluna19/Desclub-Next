@@ -14,7 +14,9 @@ function Descubre() {
         <Carrusel2/>
         </div>
         <div className={styles.contenedorboton}>
-        <button type='button' className={styles.boton_buscador}>Ir al Buscador</button>
+        <button type='button' className={styles.boton_buscador}>Ir al Buscador
+        <img src='img/flechaboton.svg' width={20} height={20} alt='Flecha Boton'/>
+        </button>
         </div>
     </div>
   )

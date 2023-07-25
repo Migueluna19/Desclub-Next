@@ -1,0 +1,146 @@
+.contenedorprincipal{
+    margin: 10rem auto;
+    h1{
+        font-size: 6rem;
+        color:#FF7400;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+    }
+}
+.contenedorimagenes{
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 2rem;
+    .contenedorauxiliar{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        height: 100%;
+    }
+}
+.contenedorimagen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.alineaderecha{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.titulo{
+    position: absolute;
+    bottom: 0;
+    margin:0 0 1rem 1rem;
+    h4{
+        font-size: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 3rem;
+        color: #FFF;
+        text-align: left;
+        width: 80%;
+    }
+}
+.imagen1{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen1::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadomedios.svg); 
+  }
+
+  .imagen2{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen2::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadoeditorial.svg); 
+  }
+
+  .imagen3{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen3::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadocreativo.svg); 
+  }
+  .imagen4{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen4::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadodesarrollo.svg); 
+  }
+  .imagen5{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen5::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadoconcierge.svg); 
+  }
+  .imagen6{
+    position: relative;
+    width: 100%;
+    img{
+        height: 100%;
+    }
+  }
+  .imagen6::before{
+  position: absolute;
+  content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+    background-image: url(../../public/img/EmpresaDesclub/degradadogarantia.svg); 
+  }

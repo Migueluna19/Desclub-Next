@@ -1,8 +1,7 @@
 {
-  "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
-  "/tarjetadesclub": "pages/tarjetadesclub.js",
-  "/directorio": "pages/directorio.js",
-  "/comprar": "pages/comprar.js"
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/empresadesclub": "pages/empresadesclub.js",
+  "/": "pages/index.js"
 }

@@ -47,12 +47,14 @@ function Sumamarca() {
         <label>Consulta nuestro aviso <a href="#" target="blank">Aviso de Privacidad</a></label>
         </div>
         <div className={styles.contenedorboton}>
-        <input type="button" value="Enviar" className={styles.botonenviar}/>
+        <button type='button' className={styles.botonenviar}>Enviar
+        <img src='img/flechaboton.svg' width={20} height={20} alt='Flecha Boton'/>
+        </button>
         </div>
         </form>
         </div>
         <div className={styles.imagenformulario}>
-        <img src="/img/ImagenFormulario.png" width={100} height={100} alt="Imagen Publicitaria"/>
+        <img src="/img/tarjetadesclub/ImagenFormulario.png" width={100} height={100} alt="Imagen Publicitaria"/>
         </div>
         </div>
     </div>

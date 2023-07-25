@@ -5,7 +5,7 @@ function Beneficiosprincipal() {
   return (
       <div className={styles.contenidoprincipal}>
         <div className={styles.imagenprincipal}>
-        <img src="/img/ImagenMundoBeneficios.png" width={30} height={300} alt="Imagen Mundo de Beneficios"/>
+        <img src="/img/tarjetadesclub/ImagenMundoBeneficios.png" width={30} height={300} alt="Imagen Mundo de Beneficios"/>
         </div>
         <div className={styles.titulos}>
         <div className={styles.contenedortitulo}>

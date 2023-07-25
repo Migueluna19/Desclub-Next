@@ -1,0 +1,107 @@
+.fondoprincipal{
+    background-image: url(../../public/img/EmpresaDesclub/degradadoservicios.png);
+    height: auto;
+    h1{
+        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        color: #FFF;
+        font-size: 5.5rem;
+        padding-top: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+.gridimagenes{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 2rem auto;
+    gap: 2rem;
+    width: 85%;
+    .gridbeneficios{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 8rem;
+            height: 10rem;
+        }
+        h4{
+            font-family: 'Roboto',sans-serif;
+            color: #FFF;
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 3rem;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.contenedorprincipal{
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    padding-bottom: 4rem;
+.contenedorimagen{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.contenedortexto{
+    width: 97%;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    p{
+        color: #FFF;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 3rem;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    .centrartexto{
+        text-align: center;
+    }
+    span{
+        font-weight: bold;
+    }
+    .textolista{
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+.contenedortextopuntos{
+    width: 97%;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    p{
+        color: #FFF;
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 3rem;
+        text-align: left;
+    }
+    .centrartexto{
+        text-align: center;
+    }
+    span{
+        font-weight: bold;
+    }
+    .textolista{
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+}
+
+.boton{
+    background: none;
+    border: none;
+}

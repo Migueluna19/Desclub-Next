@@ -1,0 +1,28 @@
+.footer{
+    background-color: #5C5B5B;
+    padding: 2rem;
+    margin-top: 2rem;
+   .footer_enlace{
+        border-top: 1px solid #FFF;
+        padding-top: 1rem;
+        color: #FFF;
+        a{
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #FFF;
+        }
+        p{
+            color: #FFF;
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 300;
+        }
+    }
+    .footer_imagen{
+        img{
+            width: 20rem;
+            height: 2.7rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -13,9 +13,9 @@ export default function Home() {
      </div>
      <div className={styles.grid}>
       <div className={styles.empresas}>
-      <Link href={'/'}>
+      <Link href={'/empresadesclub'}>
       <div className={styles.imagen}> 
-      <img src='/img/ServiciosEmpresas.png' width={100} height={100} alt='Imagen Publicitaria'/>
+      <img src='/img/index/ServiciosEmpresas.png' width={100} height={100} alt='Imagen Publicitaria'/>
       </div>
       </Link>
 
@@ -31,13 +31,13 @@ export default function Home() {
 
       </div>
       <div className={styles.texto}>
-      <p>Planes de lealtad, programa de beneficios, incentivos, promociones y sorteos.</p>
+      <p className={styles.textoempresa}>Planes de lealtad, programa de beneficios, incentivos, promociones y sorteos.</p>
       </div>
 
       <div className={styles.tarjetadesclub}>
         <Link href={'/tarjetadesclub'}>
         <div className={styles.imagen}> 
-      <img src='/img/TarjetaDesclub.png' width={100} height={100} alt='Imagen Publicitaria'/>
+      <img src='/img/index/TarjetaDesclub.png' width={100} height={100} alt='Imagen Publicitaria'/>
       </div>
       </Link>
       <div className={styles.titulos}>
@@ -49,7 +49,7 @@ export default function Home() {
       
       </div>
       <div className={styles.texto}>
-      <p>Conoce los beneficios y las últimas novedades de la membresía Desclub, accede a descuentos y red médica.</p>
+      <p className={styles.textotarjeta}>Conoce los beneficios y las últimas novedades de la membresía Desclub, accede a descuentos y red médica.</p>
       </div>
      </div>
      <div className={styles.footer}>

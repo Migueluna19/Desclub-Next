@@ -1,0 +1,115 @@
+.contenedorprincipal{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.texto{
+    margin-bottom: 8rem;
+    h1{
+        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        font-weight: bold;
+        font-size: 6rem;
+        color: #FF7400;
+        text-transform: uppercase;
+        margin: 4rem 0 2rem 0;
+    }
+    p{
+        text-align: center;
+        color: #5C5B5B;
+        font-weight: 500;
+        font-size: 2.8rem;
+        margin: 0;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    form{
+        width: 80%;
+    }
+    .campo{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        .campo_label{
+        margin-left: 1.5rem;
+        color: #5C5B5B;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        }
+        .campo_field{
+            width: 100%;
+            border-radius: 1rem;
+            padding: 1.2rem 0;
+            border:1px solid #D8D8D8;
+            box-shadow: 0px 3px 6px #00000029;
+        }
+        .campo_field_textarea{
+            width: 100%;
+            border-radius: 1rem;
+            border:1px solid #D8D8D8;
+            box-shadow: 0px 3px 6px #00000029;
+            height: 10rem;
+        }
+    }
+}
+
+.imagenformulario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    img{
+        height: 49rem;
+    }
+}
+
+.avisoprivacidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    label{
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.4rem;
+        color: #5C5B5B;
+    }
+    a{
+        color: #158BC8;
+        text-decoration: underline;
+    }
+}
+
+.contenedorboton{ 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    .botonenviar{
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        border-radius: 4rem;
+        padding: 0.5rem 2.5rem;
+        background-color:  #158BC8;
+        color: #FFF;
+        border: none;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Roboto',sans-serif;
+        text-align: left;
+        img{
+            margin-left: 3rem;
+        }
+    }
+    .botonenviar:hover{
+        background-color:  darken(#158BC8,5);;
+        cursor: pointer;
+    }
+}

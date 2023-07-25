@@ -1,0 +1,81 @@
+.contenidoprincipal{
+    height: auto;
+    background-image: url(../../public/img/fondo.png);
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+}
+.imagenprincipal{
+    position: relative;
+   img{
+    height: 100%;
+   }
+}
+.imagenprincipal::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(../../public/img/EmpresaDesclub/degradadoprincipal.png)
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    h1{
+    font-family: 'BentonSansBBVA-Bold',sans-serif;
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 9rem;
+    color: #FF7400;
+    text-align: left;
+    text-transform: uppercase;
+    width: 90%;
+    }
+    .fondoazul{
+        background-color: #158BC8;
+        width: 90%;
+        h1{
+            color: #FFF;
+            font-size: 5.8rem;
+            text-align: left;
+            padding-right: 0;
+        }
+    }
+    .alineaizquierda{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+}
+.parrafo{
+    width: 75%;
+    margin: 3rem auto 2rem auto;
+    p{
+        color: #5C5B5B;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 2.4rem;
+        margin: 4rem 0;
+        text-align: center;
+    }
+}
+.centra{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.logodesclub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    img{
+        width: 32rem;
+        height: 6rem;
+    }
+}

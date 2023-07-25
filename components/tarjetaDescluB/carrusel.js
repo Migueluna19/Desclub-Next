@@ -70,7 +70,7 @@ function Carrusel() {
         return(
             <div key={item.id} className={styles.item}>
                     <div className={item.clase}> 
-                    <img src={`/img/${item.image}`} width={50} height={50} alt={`Imagen ${item.text}`}/>
+                    <img src={`/img/tarjetadesclub/carruseles/${item.image}`} width={50} height={50} alt={`Imagen ${item.text}`}/>
                     </div> 
                             <div className={styles.titulo}>
                             <h4>{item.text}</h4>

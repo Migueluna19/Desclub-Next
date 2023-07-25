@@ -1,5 +1,6 @@
 .contenedor{
-    background-image: url(../public/img/Fondoindex.png);
+    background-image: url(../public/img/index/Fondoindex.png);
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -68,8 +69,13 @@
        }
     }
    .texto{
-    width: 70%;
     margin-left: 5rem;
+    .textoempresa{
+        width: 70%;
+    }
+    .textotarjeta{
+        width: 65%;
+    }
     p{
         font-family: 'Roboto',sans-serif;
         font-size: 1.8rem;

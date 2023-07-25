@@ -1,5 +1,5 @@
 .fondoprincipal{
-    background-image: url(../../public/img/DegradadoAppyTarjeta.svg);
+    background-image: url(../../public/img/tarjetadesclub/DegradadoAppyTarjeta.svg);
     height: auto;
     h1{
         font-family: 'BentonSansBBVA-Bold',sans-serif;
@@ -98,9 +98,11 @@ p{
     }
 }
 .boton{
+    display: flex;
+    align-items: center;
     margin-top: 3rem;
     border-radius: 4rem;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 2rem;
     background-color:  #FF7400;
     color: #FFF;
     border: none;
@@ -108,49 +110,11 @@ p{
     font-weight: bold;
     font-family: 'Roboto',sans-serif;
     text-align: left;
+    img{
+        margin-left: 2rem;
+    }
 }
 .boton:hover{
     background-color:  darken(#FF7400,5);;
     cursor: pointer;
-}
-.gridservicios{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 4rem;
-    width: 85%;
-    padding-bottom: 5rem;
-    .servicio{
-        border: 2px solid #FFF;
-        border-radius: 3rem;
-        padding: 3rem 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: column;
-        img{
-            width: 8.5rem;
-            height: 8rem;
-        }
-        h2{
-            color: #FFF;
-            font-family: 'Roboto',sans-serif;
-            font-size: 3rem;
-            margin: 2rem 0;
-            font-weight: 600;
-            width: 85%;
-            line-height: 3.5rem;
-        }
-        .textoservicio{
-            width: 65%;
-            p{
-                text-align: center;
-                color: #FFF;
-                font-family: 'Roboto',sans-serif;
-                font-weight: 800;
-                line-height: 3.2rem;
-            }
-        }
-    }
-
 }

@@ -1,0 +1,72 @@
+.gridservicios{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    width: 85%;
+    padding-bottom: .5rem;
+    .servicio{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 8.5rem;
+            height: 8rem;
+        }
+        h2{
+            color: #FFF;
+            font-family: 'Roboto',sans-serif;
+            font-size: 3rem;
+            margin: 2rem 0;
+            font-weight: 600;
+            width: 85%;
+            line-height: 3.5rem;
+        }
+        .textoservicio{
+            width: 65%;
+            p{
+                text-align: center;
+                color: #FFF;
+                font-family: 'Roboto',sans-serif;
+                font-weight: 800;
+                line-height: 3.2rem;
+            }
+        }
+    }
+}
+
+.boton{
+    background: none;
+    border: none;
+}
+
+    .contenedorprincipal{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        position: relative;
+        padding-bottom: 4rem;
+    .contenedorimagen{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contenedortexto{
+        width: 98%;
+        position: absolute;
+        top: 5rem;
+        left: 2.5rem;
+        p{
+            color: #FFF;
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 3rem;
+            text-align: left;
+        }
+        .centrartexto{
+            text-align: center;
+        }
+    }
+    }
