@@ -1,3 +1,14 @@
+.contenedorheader{
+    width: 90%;
+    margin: 0 auto;
+    &.fijo{
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 20;
+    }
+}
 .header{
     background-color: #FFF;
     height: 10rem;
@@ -5,8 +16,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: max-content;
-    margin: 2rem 0;
+    padding: 1rem 0;
     display: flex;
+    align-items: center;
     // @include tablet{
     //     &.fijo{
     //         left: 0;
@@ -18,10 +30,10 @@
     // }
 }
 .logomarca{
-    margin-left: 2rem;
+    margin-left: 5rem;
     img{
         width: 20rem;
-        height: 4.5rem;
+        height: 4rem;
     }
 }
 .contenedornavegacion{
@@ -30,15 +42,34 @@
     justify-content: flex-end;
     align-items: center;
     .navegacion{
-        width: 45%;
+        width: 60%;
         display: flex;
-        justify-content: space-evenly;
-        gap: 7rem;
+        justify-content: space-between;
+        gap: 4rem;
         a{
             color: #5C5B5B;
             font-size: 2rem;
             font-family: 'Roboto',sans-serif;
             font-weight: 400    ;
         }
+        a:hover,.active{
+            background-color: #FF7400;
+            padding: 0 0.5rem;
+            border-radius: 0.5rem;
+            transition: 600ms;
+            color: #FFF;
+        }
     }
+}
+.centrar{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }

@@ -2,11 +2,10 @@
     background-image: url(../../public/img/EmpresaDesclub/degradadoservicios.png);
     height: auto;
     h1{
-        font-family: 'BentonSansBBVA-Bold',sans-serif;
+        font-family: 'Gotham-Medium';
         color: #FFF;
-        font-size: 5.5rem;
+        font-size: 6rem;
         padding-top: 2rem;
-        font-weight: bold;
         text-transform: uppercase;
     }
 }
@@ -21,17 +20,32 @@
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        img{
-            width: 8rem;
-            height: 10rem;
-        }
+       .beneficios{
+        width: 8.5rem;
+        height: 10rem;
+       }
+       .dinamicas{
+        width: 9rem;
+        height: 9rem;
+       }
+       .incentivos{
+        width: 8rem;
+        height: 9rem;
+       }
+       .puntos{
+        width: 8rem;
+        height: 10rem;
+       }
+       .asistencias{
+        width: 7rem;
+        height: 8rem;
+       }
         h4{
-            font-family: 'Roboto',sans-serif;
+            font-family: 'Gotham-Black';
             color: #FFF;
             text-align: center;
             font-size: 2rem;
             text-transform: uppercase;
-            font-weight: bold;
             line-height: 3rem;
             margin-top: 1rem;
         }
@@ -57,17 +71,19 @@
     left: 2.5rem;
     p{
         color: #FFF;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: 500;
         line-height: 3rem;
         text-align: left;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
+        font-family: 'Gotham-Medium'
     }
     .centrartexto{
         text-align: center;
     }
     span{
-        font-weight: bold;
+        font-family: 'Gotham-Black';
+        font-size: 2rem;
     }
     .textolista{
         p{
@@ -82,8 +98,8 @@
     left: 2.5rem;
     p{
         color: #FFF;
-        font-size: 2.2rem;
-        font-weight: 500;
+        font-size: 2rem;
+        font-family: 'Gotham-Medium';
         line-height: 3rem;
         text-align: left;
     }
@@ -91,7 +107,8 @@
         text-align: center;
     }
     span{
-        font-weight: bold;
+        font-family: 'Gotham-Black';
+        font-size: 2.2rem;
     }
     .textolista{
         p{

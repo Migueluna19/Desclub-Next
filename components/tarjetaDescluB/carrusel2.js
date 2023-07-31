@@ -69,10 +69,11 @@ const items1=[
 const settings = {
     autoplay:true,
     infinite: true,
-    speed: 500,
-    autoplaySpeed:1500,
+    speed: 5000,
+    autoplaySpeed:5000,
     slidesToShow: 6,
-    slidesToScroll: -1
+    slidesToScroll: -1,
+    cssEase:"linear"
   };
 
 function Carrusel2() {

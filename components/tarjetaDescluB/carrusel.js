@@ -2,7 +2,7 @@ import styles from '../../styles/TarjetaDesclub/descubre.module.scss'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+ 
 const items1=[
     {
     text:'Educación',
@@ -57,10 +57,11 @@ const items1=[
 const settings = {
     autoplay:true,
     infinite: true,
-    speed: 500,
-    autoplaySpeed:1500,
+    speed: 4000,
+    autoplaySpeed:4000,
     slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    cssEase:"linear"
   };
 
 function Carrusel() {

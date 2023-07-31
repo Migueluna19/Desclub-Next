@@ -1,35 +1,74 @@
 //Variables globales
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-Light.otf') format('otf');
-  font-style: normal;
+  font-family: 'Gotham-Black';
+  src: url('../public/gotham/Gotham-Black.otf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-Medium.otf') format('otf');
-  font-style: normal;
+  font-family: 'Gotham-BlackIta';
+  src: url('../public/gotham/Gotham-BlackIta.otf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-MediumItalic.otf') format('otf');
-  font-style: italic;
+  font-family: 'Gotham-Bold';
+  src: url('../public/gotham/Gotham-Bold.otf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-Book.otf') format('otf');
-  font-style: normal;
+  font-family: 'Gotham-BoldIta';
+  src: url('../public/gotham/Gotham-BoldIta.otf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-BookItalic.otf') format('otf');
-  font-style: italic;
+  font-family: 'Gotham-Book';
+  src: url('../public/gotham/Gotham-Book.otf');
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../public/benton/BentonSansBBVA-Bold.otf') format('otf');
-  font-style:normal;
+  font-family: 'Gotham-BookIta';
+  src: url('../public/gotham/Gotham-BookIta.otf');
 }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../public/gotham/Gotham-Light.otf');
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../public/gotham/Gotham-Light.otf');
+}
+@font-face {
+  font-family: 'Gotham-LightIta';
+  src: url('../public/gotham/Gotham-LightIta.otf');
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../public/gotham/Gotham-Medium.otf');
+}
+@font-face {
+  font-family: 'Gotham-MediumIta';
+  src: url('../public/gotham/Gotham-MediumIta.otf');
+}
+@font-face {
+  font-family: 'Gotham-Thin';
+  src: url('../public/gotham/Gotham-Thin.otf');
+}
+@font-face {
+  font-family: 'Gotham-ThinIta';
+  src: url('../public/gotham/Gotham-ThinIta.otf');
+}
+@font-face {
+  font-family: 'Gotham-Ultra';
+  src: url('../public/gotham/Gotham-Ultra.otf');
+}
+@font-face {
+  font-family: 'Gotham-UltraIta';
+  src: url('../public/gotham/Gotham-UltraIta.otf');
+}
+@font-face {
+  font-family: 'Gotham-XLight';
+  src: url('../public/gotham/Gotham-XLight.otf');
+}
+@font-face {
+  font-family: 'Gotham-XlightIta';
+  src: url('../public/gotham/Gotham-XLightIta.otf');
+}
+
 
 html {
   font-size: 62.5%;

@@ -1,5 +1,7 @@
 import Layout from "../components/layout"
-
+import Hotdeals from "../components/hotdeals/hotdeals"
+import Slidercupones from "../components/hotdeals/slidercupones"
+import Cupones from "../components/hotdeals/cupones"
 
 function HotDeals() {
   return (
@@ -7,9 +9,11 @@ function HotDeals() {
     title={'Hot Deals'}
     desctiption={'Nuestras Mejores Ofertas'}
     >
-    <div>HotDeals</div>
+    <Hotdeals/>
+    <Slidercupones/>
+    <Cupones/>
     </Layout>
-
+ 
   )
 }
 

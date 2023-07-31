@@ -3,7 +3,7 @@
     background-image: url(../../public/img/fondo.png);
     display: grid;
     grid-template-columns: 50% 50%;
- 
+    padding-top: 5.5rem;
 }
 // .degradado{
 //     background-image: url(../public/img/DegradadoMundoBeneficios.png);
@@ -30,10 +30,9 @@
     align-items: left;
     justify-content: center;
     h1{
-    font-family: 'BentonSansBBVA-Bold',sans-serif;
-    font-weight: bold;
-    font-size: 10.5rem;
-    line-height: 9rem;
+    font-family: 'Gotham-Bold';
+    font-size: 10.2rem;
+    line-height: 10rem;
     color: #158BC8;
     text-align: left;
     text-transform: uppercase;
@@ -44,7 +43,7 @@
         width: 100%;
         h1{
             color: #FFF;
-            font-size: 7.5rem;
+            font-size: 7rem;
             text-align: left;
         }
     }
@@ -54,11 +53,11 @@
     margin: 3rem 0;
     p{
         color: #5C5B5B;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
+        font-family: 'Gotham-Medium';
         font-size: 2.4rem;
         margin: 2rem 0 2rem 5rem;
         text-align: center;
+        line-height: 4rem;
     }
 }
 .centra{

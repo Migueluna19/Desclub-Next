@@ -1,0 +1,137 @@
+.contenedor{
+    height: auto;
+    background-image: url(../../public/img/fondo.png);
+    background-position: center center;
+    padding-top: 5.5rem;
+    .titulos{
+        width: 40%;
+        margin: 0 auto;
+        padding: 5rem 0 2rem 0;
+        p{
+            text-align: center;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #5C5B5B;
+            font-family: 'Gotham-Medium';
+        }
+        h1{
+            font-size: 7.5rem;
+            margin: 0;
+            line-height: 8rem;
+            color: #158BC8;
+            text-transform: uppercase;
+            font-family: 'Gotham-Bold';
+        }
+        span{
+            font-weight: 600;
+        }
+        .fondonaranja{
+            width: 75%;
+            margin: 0 auto 5rem auto;
+            h1{
+                color: #FFF;
+                background-color: #FF7400;
+                font-size: 6rem;
+            }
+        }
+    }
+}
+
+.datostitulo{
+    border-bottom: 4px solid #707070;
+    padding-bottom: 0.4rem;
+    width: 80%;
+    margin: 0 auto;
+    label{
+        font-size: 1.8rem;
+        color: #707070;
+        padding: 0.7rem;
+        padding-right: 4rem;
+        border-bottom: 4px solid #FF7400;
+        font-family: 'Gotham-Bold';
+    }
+}
+.datostitulop{
+    border-bottom: 4px solid #707070;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    label{
+        font-size: 1.8rem;
+        color: #707070;
+        padding: 0.7rem;
+        padding-right: 4rem;
+        border-bottom: 4px solid #FF7400;
+        font-family: 'Gotham-Bold';
+    }
+}
+.datostituloped{
+    border-bottom: 4px solid #707070;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+    label{
+        font-size: 1.8rem;
+        font-family: 'Gotham-Bold';
+        color: #707070;
+        padding: 0.7rem;
+        padding-right: 4rem;
+        border-bottom: 4px solid #FF7400;
+    }
+}
+
+.gridtarjetas{
+    padding-top: 6rem;
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30rem;
+    img{
+        height: 24rem;
+        margin-bottom: 4rem;
+    }
+    .precio{
+        width: 60%;
+        margin: 0 auto;
+        h3{
+            color: #5C5B5B;
+            font-size: 2.8rem;
+            line-height: 3.5rem;
+            font-family: 'Gotham-Black';
+        }
+    .costo{
+        padding-top: 2rem;
+    }
+    }
+}
+.griddatos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    width: 85%;
+    margin: 0 auto;
+    .campo{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .campo_label{
+        margin-left: 1.5rem;
+        color: #5C5B5B;
+        font-family: 'Gotham-Bold';
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    .campo_field{
+        width: 100%;
+        border-radius: 1rem;
+        padding: 1.2rem 0;
+        border:1px solid #D8D8D8;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+}

@@ -3,7 +3,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: auto;
     .logodesclub{
         width: 100%;
         padding: 3rem 0;
@@ -29,9 +29,10 @@
         position: relative;
         .fondonaranja{
             background-color: #FF7400;
-            width: 35rem;
-            h1{
-                font-size: 4rem;
+            width: 40rem;
+            padding-top: 1rem;
+            .titulo1{
+                font-size: 6.5rem;
             }
            }
     }
@@ -41,9 +42,10 @@
         grid-row: 1/2;
         .fondonaranja{
             background-color: #FF7400;
-            width: 25.5rem;
-            h1{
-                font-size: 4.5rem;
+            width: 42rem;
+            padding-top: 1rem;
+            .titulo1{
+                font-size: 6.5rem;
             }
            }
     } 
@@ -60,24 +62,23 @@
         left:5rem;
        h1{
         color: #FFF;
-        font-family: 'BentonSansBBVA-Bold',sans-serif;
-        font-weight: 600;
-        font-size: 5.8rem;
+        font-family: 'Gotham-Bold';
         line-height: 5rem;
         text-align: left;
         text-transform: uppercase;
+        font-size: 4.5rem;
        }
     }
    .texto{
     margin-left: 5rem;
     .textoempresa{
-        width: 70%;
+        width: 85%;
     }
     .textotarjeta{
-        width: 65%;
+        width: 75%;
     }
     p{
-        font-family: 'Roboto',sans-serif;
+        font-family: 'Gotham-Medium';
         font-size: 1.8rem;
         line-height: 2rem;
         color: #FFF;
@@ -94,14 +95,16 @@
         padding-top: 1rem;
         color: #FFF;
         a{
-            font-size: 1.5rem;
-            font-weight: 300;
+            font-size: 1.6rem;
+            font-family:  Helvetica, sans-serif;
             color: #FFF;
+            font-weight: 300;
         }
         p{
             color: #FFF;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             margin: 0;
+            font-family:  Helvetica, sans-serif;
             font-weight: 300;
         }
     }

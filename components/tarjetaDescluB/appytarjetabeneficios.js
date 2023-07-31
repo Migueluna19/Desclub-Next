@@ -17,19 +17,22 @@ function Appytarjetabeneficios() {
     <div className={styles.gridservicios}>
     <button className={styles.boton} onClick={(e)=>handleDesplegar(1)}>
     <div className={styles.servicio}>
-    <Image src="/img/tarjetadesclub/beneficiosalud.png" width={100} height={100} alt='Logo Beneficio Salud'/>
+    <Image src="/img/tarjetadesclub/beneficiosalud.png" width={100} height={100}
+     alt='Logo Beneficio Salud' className={styles.imagensalud}/>
     <h2>Desclub + Salud</h2>
     </div>
     </button>
     <button className={styles.boton} onClick={(e)=>handleDesplegar(2)}>
     <div className={styles.servicio}>
-    <Image src="/img/tarjetadesclub/beneficioconcierge.png" width={100} height={100} alt='Logo Beneficio Concierge'/>
+    <Image src="/img/tarjetadesclub/beneficioconcierge.png" width={100} height={100}
+     alt='Logo Beneficio Concierge' className={styles.imagenconcierge}/>
     <h2>Servicio de Concierge</h2>
     </div>
     </button>
     <button className={styles.boton} onClick={(e)=>handleDesplegar(3)}>
     <div className={styles.servicio}>
-    <Image src="/img/tarjetadesclub/beneficiogarantia.png" width={100} height={100} alt='Logo Beneficio Garantia'/>
+    <Image src="/img/tarjetadesclub/beneficiogarantia.png" width={100} height={100}
+     alt='Logo Beneficio Garantia' className={styles.imagengarantia}/>
     <h2>Garantía de Satisfacción</h2>
     </div>
     </button>

@@ -1,0 +1,225 @@
+.contenedorresultados{
+    height: auto;
+    background-image: url(../../public/img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:60% 40%;
+    gap: 5rem;
+}
+
+.titulo{
+    border-bottom: 4px solid #707070;
+    width: 100%;
+    margin: 0 auto;
+    label{
+        font-size: 1.8rem;
+        font-family: 'Gotham-Bold';
+        color: #707070;
+        padding: 0.7rem;
+    }
+}
+.contenedorcupon{
+    border-radius: 1.2rem;
+    border:1px solid #D8D8D8;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color:#FFF;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    padding: 2rem 0;
+    .imagen{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .promocion{
+       h3{
+        color: #707070;
+        text-align: left;
+        padding-left: 3rem;
+        font-family: 'Gotham-Medium';
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-top: 1rem;
+       }
+       h4{
+        color: #707070;
+        text-align: left;
+        padding-left: 3rem;
+        font-family: 'Gotham-Medium';
+        font-size: 2rem;
+       }
+    }
+    .descuento{
+        display: grid;
+        grid-template-rows: 70% 30%;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+        .circulodescuento{
+            border: 4px solid green;
+            border-radius: 50%;
+            height: 7rem;
+            width: 7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4{
+                color: green;
+                font-family: 'Gotham-Medium';
+            }
+        }
+        .vermas{
+            p{
+                color: green;
+                font-family: 'Gotham-Medium';
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+.slidercupones{
+    margin: 6rem auto 0 auto;
+    overflow: hidden;
+}
+
+.sticky{
+    position: sticky;
+    top: 5rem;
+}
+// .desborde{
+//     //overflow-x: hidden;
+// }
+
+.contenedortarjeta{
+    border-radius: 1.2rem;
+    border:1px solid #D8D8D8;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color:#FFF;
+    padding: 2rem 0;
+    margin: 10rem 0;
+    width: 80%;
+    margin: 0 auto;
+    .imagen{
+        width: 90%;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            height: 25rem;
+        }
+    }
+    .promo{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin-top: 1rem;
+        .promocion{
+            h3{
+             color: #707070;
+             text-align: left;
+             padding-left: 2rem;
+             font-family: 'Gotham-Medium';
+             font-size: 1.5rem;
+             text-transform: uppercase;
+             margin-top: 1rem;
+            }
+            h4{
+             color: #707070;
+             text-align: left;
+             padding-left: 2rem;
+             font-family: 'Gotham-Medium';
+             font-size: 1.5rem;
+            }
+         }
+         .descuento{
+            display: grid;
+            grid-template-rows: 70% 30%;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            margin: 0 auto;
+            .circulodescuento{
+                border: 3px solid green;
+                border-radius: 50%;
+                height: 5rem;
+                width: 5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h4{
+                    color: green;
+                    font-family: 'Gotham-Medium';
+                    font-size: 1.5rem;
+                }
+            }
+            .vermas{
+                p{
+                    color: green;
+                    font-family: 'Gotham-Medium';
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+.contenedorresultado{
+    height: auto;
+    background-image: url(../../public/img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    .gridresultado{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .imagencupon{
+            width: 90%;
+            margin: 0 auto;
+            img{
+                height: 26rem;
+            }
+        }
+        .terminos{
+            width: 100%;
+            .logo{
+                width: 25%;
+                margin: 0 auto;
+                img{
+                    height: 4rem;
+                }
+            }
+            .contenido{
+                h2{
+                    color: #707070;
+                    font-family: 'Gotham-Black';
+                    font-size: 2.5rem;
+                    margin: 1rem 0;
+                }
+                h4{
+                    color: #707070;
+                    font-family: 'Gotham-Medium';
+                    font-size: 2rem;
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
+    .condiciones{
+        width: 85%;
+        margin: 5rem auto 3rem auto;
+
+        p{
+            color: #707070;
+            font-family: 'Gotham-Medium';
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+        }
+    }
+}

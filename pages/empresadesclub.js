@@ -11,10 +11,18 @@ function tarjetadesclub() {
     title={'Tarjeta Desclub'}
     desctiption={'Tarjeta de Descuentos y Mucho más'}
     >
-    <Beneficioprincipal/>
+      <section id="Nosotros">
+      <Beneficioprincipal/>
+      </section>
+    <section id="Servicios">
     <Serviciosem/>
+    </section>
+    <section id="Recursos">
     <Recursos/>
+    </section>
+    <section id="Contacto">
     <Contacto/>
+    </section>
     </Layoutempresa>
 
   )

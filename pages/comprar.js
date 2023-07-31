@@ -1,5 +1,8 @@
 import Layout from "../components/layout"
-
+import Adquieretarjeta from "../components/tarjetaDescluB/adquieretarjeta"
+import Eligetarjeta from "../components/tarjetaDescluB/eligetarjeta"
+import Personaliza from "../components/tarjetaDescluB/personaliza"
+import Pedido from "../components/tarjetaDescluB/pedido"
 
 function Comprar() {
   return (
@@ -7,7 +10,10 @@ function Comprar() {
     title={'Compra'}
     desctiption={'Compra tu tarjeta de Descuentos'}
     >
-    <div>Comprar</div>
+    <Adquieretarjeta/>
+    <Eligetarjeta/>
+    <Personaliza/>
+    <Pedido/>
     </Layout>
 
   )

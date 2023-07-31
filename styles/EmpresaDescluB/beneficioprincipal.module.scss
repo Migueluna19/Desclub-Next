@@ -26,9 +26,8 @@
     align-items: right;
     justify-content: center;
     h1{
-    font-family: 'BentonSansBBVA-Bold',sans-serif;
-    font-weight: bold;
-    font-size: 9rem;
+    font-family: 'Gotham-Bold';
+    font-size: 8.5rem;
     line-height: 9rem;
     color: #FF7400;
     text-align: left;
@@ -40,7 +39,7 @@
         width: 90%;
         h1{
             color: #FFF;
-            font-size: 5.8rem;
+            font-size: 5.6rem;
             text-align: left;
             padding-right: 0;
         }
@@ -56,26 +55,10 @@
     margin: 3rem auto 2rem auto;
     p{
         color: #5C5B5B;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
-        font-size: 2.4rem;
+        font-family: 'Gotham-Medium';
+        font-size: 2.2rem;
+        line-height: 3.2rem;
         margin: 4rem 0;
         text-align: center;
-    }
-}
-.centra{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
-.logodesclub{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    img{
-        width: 32rem;
-        height: 6rem;
     }
 }

@@ -20,8 +20,8 @@ export default function Home() {
       </Link>
 
       <div className={styles.titulos}>
-      <h1>Servicios</h1>
-      <div className={styles.fondonaranja}>
+      <div className={styles.fondonaranja}> 
+      <h1 className={styles.titulo1}>Servicios</h1>
       <h1>Para Empresas</h1>
       </div>
       </div>
@@ -41,8 +41,8 @@ export default function Home() {
       </div>
       </Link>
       <div className={styles.titulos}>
-      <h1>Tarjeta</h1>
       <div className={styles.fondonaranja}>
+      <h1 className={styles.titulo1}>Membresia</h1>
       <h1>DescluB</h1>
       </div>
       </div>

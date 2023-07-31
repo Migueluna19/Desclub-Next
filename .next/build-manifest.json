@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/empresadesclub": [
+    "/buscador": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/empresadesclub.js"
+      "static/chunks/pages/buscador.js"
+    ],
+    "/resultado": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/resultado.js"
+    ],
+    "/tarjetadesclub": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tarjetadesclub.js"
     ]
   },
   "ampFirstPages": []
