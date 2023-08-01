@@ -5,7 +5,7 @@ function Beneficioprincipal() {
     <div className={styles.contenidoprincipal}>
     <div className={styles.titulos}>
     <div className={styles.contenedortitulo}>
-    <div className={styles.alineaizquierda}>
+    <div className={styles.alineaizquierda}> 
     <h1>Beneficios</h1>
     </div>
     <div className={styles.alineaizquierda}>

@@ -9,7 +9,7 @@
 //     background-image: url(../public/img/DegradadoMundoBeneficios.png);
 // }
 .imagenprincipal{
-    position: relative;
+    position: relative; 
    img{
     height: 100%;
    }
@@ -30,7 +30,7 @@
     align-items: left;
     justify-content: center;
     h1{
-    font-family: 'Gotham-Bold';
+    font-family: 'Gotham-Medium';
     font-size: 10.2rem;
     line-height: 10rem;
     color: #158BC8;
@@ -42,8 +42,9 @@
         background-color: #FF7400;
         width: 100%;
         h1{
+            font-family: 'Gotham-Bold';
             color: #FFF;
-            font-size: 7rem;
+            font-size: 7.3rem;
             text-align: left;
         }
     }

@@ -8,7 +8,7 @@ const items1=[
     text:'Educación',
     image:'carrusel_educacion.png',
     id:1,
-    clase:'imagen1'
+    clase:'imagen1' 
 },
 {
     text:'Entretenimiento',
@@ -27,6 +27,12 @@ const items1=[
     image:'carrusel_deportes.png',
     id:4,
     clase:'imagen4'
+},
+{
+    text:'Tecnología',
+    image:'carrusel_tecnologia.png',
+    id:5,
+    clase:'imagen9'
 },
 {
     text:'Educación',
@@ -51,15 +57,21 @@ const items1=[
     image:'carrusel_deportes.png',
     id:8,
     clase:'imagen4'
-}
+},
+{
+    text:'Tecnología',
+    image:'carrusel_tecnologia.png',
+    id:5,
+    clase:'imagen9'
+},
 ]
 
 const settings = {
     autoplay:true,
     infinite: true,
-    speed: 4000,
-    autoplaySpeed:4000,
-    slidesToShow: 5,
+    speed: 7000,
+    autoplaySpeed:7000,
+    slidesToShow: 6,
     slidesToScroll: 1,
     cssEase:"linear"
   };

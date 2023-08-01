@@ -69,8 +69,8 @@ const items1=[
 const settings = {
     autoplay:true,
     infinite: true,
-    speed: 5000,
-    autoplaySpeed:5000,
+    speed: 7000,
+    autoplaySpeed:7000,
     slidesToShow: 6,
     slidesToScroll: -1,
     cssEase:"linear"

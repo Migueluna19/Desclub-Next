@@ -1,8 +1,7 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/index.module.scss';
 import Link from 'next/link';
-import Footer from '../components/footer';
+
 
 
 export default function Home() {
@@ -14,8 +13,9 @@ export default function Home() {
      <div className={styles.grid}>
       <div className={styles.empresas}>
       <Link href={'/empresadesclub'}>
-      <div className={styles.imagen}> 
-      <img src='/img/index/ServiciosEmpresas.png' width={100} height={100} alt='Imagen Publicitaria'/>
+      <div className={styles.imagenempresa}> 
+      <img src='/img/index/1desclubempresas.png' width={100} height={100} className={styles.imagen1} alt='Imagen Publicitaria'/>
+      <img src='/img/index/2desclubempresas.png' width={100} height={100} className={styles.imagen2}  alt='Imagen Publicitaria'/>
       </div>
       </Link>
 
@@ -36,8 +36,9 @@ export default function Home() {
 
       <div className={styles.tarjetadesclub}>
         <Link href={'/tarjetadesclub'}>
-        <div className={styles.imagen}> 
-      <img src='/img/index/TarjetaDesclub.png' width={100} height={100} alt='Imagen Publicitaria'/>
+        <div className={styles.imagendesclub}> 
+        <img src='/img/index/2membresiadesclub.png' width={100} height={100} className={styles.imagen1} alt='Imagen Publicitaria'/>
+      <img src='/img/index/1membresiadesclub.png' width={100} height={100} className={styles.imagen2} alt='Imagen Publicitaria'/>
       </div>
       </Link>
       <div className={styles.titulos}>

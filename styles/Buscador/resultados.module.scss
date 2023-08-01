@@ -59,7 +59,7 @@
         grid-template-rows: 70% 30%;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         .circulodescuento{
             border: 4px solid green;
@@ -72,9 +72,14 @@
             h4{
                 color: green;
                 font-family: 'Gotham-Medium';
+                font-size: 2rem;
             }
         }
         .vermas{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.2rem;
             p{
                 color: green;
                 font-family: 'Gotham-Medium';
@@ -118,6 +123,7 @@
         grid-template-columns: 70% 30%;
         margin-top: 1rem;
         .promocion{
+            padding-left: 1rem;
             h3{
              color: #707070;
              text-align: left;
@@ -140,7 +146,7 @@
             grid-template-rows: 70% 30%;
             justify-content: center;
             align-items: center;
-            width: 60%;
+            width: 100%;
             margin: 0 auto;
             .circulodescuento{
                 border: 3px solid green;
@@ -157,6 +163,10 @@
                 }
             }
             .vermas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.1rem;
                 p{
                     color: green;
                     font-family: 'Gotham-Medium';

@@ -26,8 +26,8 @@
     align-items: right;
     justify-content: center;
     h1{
-    font-family: 'Gotham-Bold';
-    font-size: 8.5rem;
+    font-family: 'Gotham-Medium';
+    font-size: 9rem;
     line-height: 9rem;
     color: #FF7400;
     text-align: left;
@@ -39,9 +39,11 @@
         width: 90%;
         h1{
             color: #FFF;
-            font-size: 5.6rem;
+            font-family: 'Gotham-Bold';
+            font-size: 6rem;
             text-align: left;
             padding-right: 0;
+            width: 100%;
         }
     }
     .alineaizquierda{

@@ -19,21 +19,21 @@ function Appytarjetabeneficios() {
     <div className={styles.servicio}>
     <Image src="/img/tarjetadesclub/beneficiosalud.png" width={100} height={100}
      alt='Logo Beneficio Salud' className={styles.imagensalud}/>
-    <h2>Desclub + Salud</h2>
+    {desplegar===1?<h2>Desclub + Salud</h2>:<h3>Desclub + Salud</h3>}
     </div>
     </button>
     <button className={styles.boton} onClick={(e)=>handleDesplegar(2)}>
     <div className={styles.servicio}>
     <Image src="/img/tarjetadesclub/beneficioconcierge.png" width={100} height={100}
      alt='Logo Beneficio Concierge' className={styles.imagenconcierge}/>
-    <h2>Servicio de Concierge</h2>
+      {desplegar===2?<h2>Servicio de Concierge</h2>:<h3>Servicio de Concierge</h3>}
     </div>
     </button>
     <button className={styles.boton} onClick={(e)=>handleDesplegar(3)}>
     <div className={styles.servicio}>
     <Image src="/img/tarjetadesclub/beneficiogarantia.png" width={100} height={100}
      alt='Logo Beneficio Garantia' className={styles.imagengarantia}/>
-    <h2>Garantía de Satisfacción</h2>
+      {desplegar===3?<h2>Garantía de Satisfacción</h2>:<h3>Garantía de Satisfacción</h3>}
     </div>
     </button>
     </div>

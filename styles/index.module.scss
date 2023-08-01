@@ -27,10 +27,12 @@
         grid-column: 1/2;
         grid-row: 1/2;
         position: relative;
+        height: 44rem;
         .fondonaranja{
             background-color: #FF7400;
             width: 40rem;
             padding-top: 1rem;
+            height: 9rem;
             .titulo1{
                 font-size: 6.5rem;
             }
@@ -40,21 +42,50 @@
         position: relative;
         grid-column: 2/3;
         grid-row: 1/2;
+        height: 44rem;
         .fondonaranja{
             background-color: #FF7400;
             width: 42rem;
             padding-top: 1rem;
+            height: 9rem;
             .titulo1{
                 font-size: 6.5rem;
             }
            }
     } 
-    .imagen{
-        width: 90%;
+
+    .imagenempresa{
+        position: relative;
+    .imagen1{
+        position: absolute;
+        left: -9rem;
+        bottom: 8rem;
+        z-index: 10;
+        width: 70%;
+        height: 27rem;
+    }
+    .imagen2{
+        z-index: 5;
+        height: 45rem;
+    }
+    }
+    .imagendesclub{
+        position: relative;
+        margin-left: 7rem;
+        width: 100%;
+    .imagen1{
+        position: absolute;
+        left: 0;
+        bottom: 2rem;
+        width: 60%;
+        height: 40rem;
+    }
+    .imagen2{
+        z-index: 5;
+        height: 45rem;
+        width: 60%;
         margin: 0 auto;
-        img{
-            height: 33rem;
-        }
+    }
     }
     .titulos{
         position: absolute;
@@ -73,9 +104,11 @@
     margin-left: 5rem;
     .textoempresa{
         width: 85%;
+        margin-top: 2.5rem;
     }
     .textotarjeta{
-        width: 75%;
+        width: 90%;
+        margin-top: 2.5rem;
     }
     p{
         font-family: 'Gotham-Medium';
