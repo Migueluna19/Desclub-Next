@@ -1,4 +1,5 @@
 import Layoutempresa from "../components/layoutempresas"
+import styles from "../styles/fondo.module.scss"
 import Beneficioprincipal from "../components/empresaDescluB/beneficioprincipal"
 import Serviciosem from "../components/empresaDescluB/serviciosem"
 import Recursos from "../components/empresaDescluB/recursos"
@@ -11,6 +12,7 @@ function tarjetadesclub() {
     title={'Tarjeta Desclub'}
     desctiption={'Tarjeta de Descuentos y Mucho más'}
     >
+       <div className={styles.contenedorfondo}>
       <section id="Nosotros">
       <Beneficioprincipal/>
       </section>
@@ -23,6 +25,7 @@ function tarjetadesclub() {
     <section id="Contacto">
     <Contacto/>
     </section>
+    </div>
     </Layoutempresa>
 
   )

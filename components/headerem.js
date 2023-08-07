@@ -20,14 +20,14 @@ function Headerem() {
         <div className={styles.header}>
         <div className={styles.logomarca}>
                 <a href="/">
-                <Image src="/img/DescluB.png" width={300} height={40} alt='Logotipo Desclub'/>
+                <Image src="/img/desclubempresas.png" width={300} height={40} alt='Logotipo Desclub'/>
                 </a>
             </div>
             <div className={styles.contenedornavegacion}>
                     <nav className={styles.navegacion}>
                         <Link to="Nosotros" spy={true} smooth={true} offset={-10} duration={800}>Nosotros</Link>
                         <Link to="Servicios" spy={true} smooth={true} offset={-50} duration={800}>Servicios</Link>
-                        <Link to="Recursos" spy={true} smooth={true} offset={-100} duration={800} >Recursos</Link>
+                        <Link to="Recursos" spy={true} smooth={true} offset={-40} duration={800} >Recursos</Link>
                         <Link to="Contacto" spy={true} smooth={true} offset={-50} duration={800}>Contacto</Link>
                     </nav>
              </div>

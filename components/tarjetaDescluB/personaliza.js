@@ -6,6 +6,22 @@ function Personaliza() {
          <div className={styles.datostitulop}>
         <label>Personaliza a tu estilo</label>
          </div>
+
+         <div className={styles.disenos}>
+        <div className={styles.gridtarjetas}>
+        <div className={styles.imagentarjetas}>
+        <img src="/img/tarjetadesclub/tarjetasdiseños/diseño2.png" width={100} height={100} alt="Diseño 2"/>
+        </div>
+        <div className={styles.imagentarjetas}>
+        <img src="/img/tarjetadesclub/tarjetasdiseños/diseño1.png" width={100} height={100} alt="Diseño 1"/>
+        </div>
+        <div className={styles.imagentarjetas}>
+        <img src="/img/tarjetadesclub/tarjetasdiseños/diseño3.png" width={100} height={100} alt="Diseño 3"/>
+        </div>
+        </div>
+         </div>
+
+
          <div className={styles.griddatos}>
          <div className={styles.campo}>
             <label htmlFor="Nombre" className={styles.campo_label}>Nombre(s)</label>

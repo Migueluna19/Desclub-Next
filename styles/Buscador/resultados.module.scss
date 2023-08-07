@@ -1,8 +1,5 @@
 .contenedorresultados{
     height: auto;
-    background-image: url(../../public/img/fondo.png);
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 .grid{
     width: 90%;
@@ -178,9 +175,6 @@
 }
 .contenedorresultado{
     height: auto;
-    background-image: url(../../public/img/fondo.png);
-    background-position: center center;
-    background-repeat: no-repeat;
     .gridresultado{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -223,8 +217,8 @@
     }
     .condiciones{
         width: 85%;
-        margin: 5rem auto 3rem auto;
-
+        margin: 5rem auto 0 auto;
+        padding-bottom: 3rem;
         p{
             color: #707070;
             font-family: 'Gotham-Medium';

@@ -17,7 +17,7 @@ export default function Home() {
       <img src='/img/index/1desclubempresas.png' width={100} height={100} className={styles.imagen1} alt='Imagen Publicitaria'/>
       <img src='/img/index/2desclubempresas.png' width={100} height={100} className={styles.imagen2}  alt='Imagen Publicitaria'/>
       </div>
-      </Link>
+      </Link> 
 
       <div className={styles.titulos}>
       <div className={styles.fondonaranja}> 

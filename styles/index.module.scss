@@ -63,11 +63,30 @@
         z-index: 10;
         width: 70%;
         height: 27rem;
+        transition-property:all;
+        transition-duration: 500ms;
     }
+   
     .imagen2{
         z-index: 5;
         height: 45rem;
+        transition-property:all;
+        transition-duration: 500ms;
     }
+  
+    }
+    .imagenempresa:hover{
+        cursor: pointer;
+        .imagen1{
+            transform: rotateX(-15deg);
+            transform: rotateY(40deg);
+            transform: rotateZ(5deg);
+        }
+        .imagen2{
+            transform: rotateX(-15deg);
+         transform: rotateY(-40deg);
+         transform: rotateZ(-5deg);
+        }
     }
     .imagendesclub{
         position: relative;
@@ -75,22 +94,40 @@
         width: 100%;
     .imagen1{
         position: absolute;
-        left: 0;
+        left: -2rem;
         bottom: 2rem;
         width: 60%;
         height: 40rem;
+        transition-property:all;
+        transition-duration: 700ms;
+        z-index: 10;
     }
     .imagen2{
-        z-index: 5;
         height: 45rem;
         width: 60%;
         margin: 0 auto;
+        transition-property:all;
+        transition-duration: 700ms;
     }
+    }
+    .imagendesclub:hover{
+        cursor: pointer;
+        .imagen1{
+            transform: rotateX(-10deg);
+         transform: rotateY(20deg);
+         transform: rotateZ(-5deg);
+        }
+        .imagen2{
+            transform: rotateX(-10deg);
+            transform: rotateY(20deg);
+            transform: rotateZ(5deg);
+        }
     }
     .titulos{
         position: absolute;
         bottom: -2rem;
         left:5rem;
+        z-index: 20;
        h1{
         color: #FFF;
         font-family: 'Gotham-Bold';

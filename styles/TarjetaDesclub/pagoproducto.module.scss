@@ -1,7 +1,5 @@
 .contenedor{
     height: auto;
-    background-image: url(../../public/img/fondo.png);
-    background-position: center center;
     padding-top: 5.5rem;
     .titulos{
         width: 35%;
@@ -37,7 +35,7 @@
     }
 }
 .facturacion{
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 
 .datospago{
@@ -192,7 +190,7 @@
 .contenedorboton{ 
     display: flex;
     justify-content: flex-start;
-    margin:4rem 0 4rem 5rem;
+    padding:4rem 0 4rem 5rem;
     .botoncomprar{
         display: flex;
         align-items: center;

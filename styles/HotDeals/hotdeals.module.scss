@@ -1,7 +1,5 @@
 .contenedor{
     height: auto;
-    background-image: url(../../public/img/fondo.png);
-    background-position: center center;
     padding-top: 5.5rem;
     .titulos{
         width: 40%;
@@ -69,7 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0;
+    padding: 3rem 0;
     .botoncomprarh{
         display: flex;
         align-items: center;

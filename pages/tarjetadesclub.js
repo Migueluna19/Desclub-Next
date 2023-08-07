@@ -1,4 +1,5 @@
 import Layout from "../components/layout"
+import styles from "../styles/fondo.module.scss"
 import Beneficiosprincipal from "../components/tarjetaDescluB/beneficiosprincipal"
 import Appytarjeta from "../components/tarjetaDescluB/appytarjeta"
 import Afiliar from "../components/tarjetaDescluB/afiliar"
@@ -12,13 +13,18 @@ function tarjetadesclub() {
     title={'Tarjeta Desclub'}
     desctiption={'Tarjeta de Descuentos y Mucho más'}
     >
-      <Beneficiosprincipal/>
+   <div className={styles.contenedorfondo}>
+     <Beneficiosprincipal/> 
+     </div>
       <Appytarjeta/>
+      <div className={styles.contenedorfondo}>
       <Descubre/>
+      </div>
       <Afiliar/>
+      <div className={styles.contenedorfondo}>
       <Sumamarca/>
+      </div>
     </Layout>
-
   )
 }
 
