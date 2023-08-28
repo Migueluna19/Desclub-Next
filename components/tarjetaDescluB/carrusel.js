@@ -2,6 +2,7 @@ import styles from '../../styles/TarjetaDesclub/descubre.module.scss'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState,useEffect } from 'react';
  
 const items1=[
     {
@@ -66,6 +67,7 @@ const items1=[
 },
 ]
 
+
 const settings = {
     autoplay:true,
     infinite: true,
@@ -73,7 +75,7 @@ const settings = {
     autoplaySpeed:7000,
     slidesToShow: 6,
     slidesToScroll: 1,
-    cssEase:"linear"
+    cssEase:"linear" 
   };
 
 function Carrusel() {

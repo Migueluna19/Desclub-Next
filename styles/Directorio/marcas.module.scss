@@ -9,6 +9,9 @@
         display: flex !important;
         flex-direction: column;
         width: calc(100% - 3px) !important;
+        @media (min-width:768px) and (max-width:1024px){
+            height: auto;
+        }
         .imagen{
             width: 100%;
             img{

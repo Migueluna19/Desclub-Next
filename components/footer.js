@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer}> 
     <div className={styles.enlaces}>
     <div className={styles.footer_imagen}>
           <Link href="#">

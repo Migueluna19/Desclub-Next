@@ -4,6 +4,12 @@ function Nuestrodirectorio() {
   return (
     <div className={styles.contenedorprincipal}>
     <div className={styles.contenedor}>
+    <div className={styles.titulomobile}>
+    <h1>Nuestro</h1>
+    <div className={styles.fondonaranja}>
+    <h1>Directorio</h1> 
+    </div>
+    </div>
     <form>
     <div className={styles.grid}>
     <div className={styles.imagen}>
@@ -13,7 +19,7 @@ function Nuestrodirectorio() {
     <div className={styles.titulo}>
     <h1>Nuestro</h1>
     <div className={styles.fondonaranja}>
-    <h1>Directorio</h1>
+    <h1>Directorio</h1> 
     </div>
     </div>
 

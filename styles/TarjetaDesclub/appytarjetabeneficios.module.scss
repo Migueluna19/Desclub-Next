@@ -5,6 +5,9 @@
     gap: 4rem;
     width: 85%;
     padding-bottom: .5rem;
+    @media (max-width:767px){
+        gap: 1rem;
+    }
     .servicio{
         display: flex;
         justify-content: flex-end;
@@ -13,14 +16,38 @@
         .imagensalud{
             width: 10rem;
             height: 8rem;
+            @media (max-width:767px){
+                width: 5.5rem;
+                height: 4.5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+               width: 8rem;
+               height: 7rem;
+            }
         }
         .imagenconcierge{
             width: 8rem;
             height: 10rem;
+            @media (max-width:767px){
+                width: 4.5rem;
+                height: 5.5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                width: 6rem;
+                height: 7rem;
+             }
         }
         .imagengarantia{
             width: 8rem;
             height: 9rem;
+            @media (max-width:767px){
+                width: 4.5rem;
+                height: 5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                width: 6.5rem;
+                height: 7rem;
+             }
         }
         h2{
             color: #FFF;
@@ -29,6 +56,16 @@
             margin: 2rem 0;
             width: 60%;
             line-height: 3.5rem;
+            @media (max-width:767px){
+                font-size: 1.6rem;
+                line-height: 2rem;
+                width: 80%;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                font-size: 2rem;
+                line-height: 2.5rem;
+                width: 75%;
+             }
         }
         h3{
             color: #FFF;
@@ -37,6 +74,16 @@
             margin: 2rem 0;
             width: 60%;
             line-height: 3.5rem;
+            @media(max-width:767px){
+                font-size: 1.6rem;
+                line-height: 2rem;
+                width: 80%;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                font-size: 2rem;
+                line-height: 2rem;
+                width: 75%;
+             }
         }
         .textoservicio{
             width: 65%;
@@ -44,7 +91,6 @@
                 text-align: center;
                 color: #FFF;
                 font-family: 'Gotham-Black';
-                font-weight: 800;
                 line-height: 3.2rem;
             }
         }
@@ -62,6 +108,9 @@
         height: auto;
         position: relative;
         padding-bottom: 4rem;
+        @media (max-width:767px){
+            width: 95%;
+        }
     .contenedorimagen{
         img{
             width: 100%;
@@ -73,6 +122,24 @@
         position: absolute;
         top: 5rem;
         left: 2.5rem;
+        @media (max-width:480px){
+            top: 1.2rem;
+            left: 1rem;
+            width: 95%;
+        }
+        @media (min-width:480px) and (max-width:767px){
+            top: 1.5rem;
+            left: 1.4rem;
+            width: 95%;
+        }
+        @media (min-width:767px) and (max-width:900px){
+           top: 2rem;
+           left: 1.3rem;
+         }
+        @media (min-width:900px) and (max-width:1200px){
+            top: 3rem;
+            left: 1.5rem;
+        }
         p{
             color: #FFF;
             font-size: 2.5rem;
@@ -80,6 +147,23 @@
             line-height: 3.5rem;
             text-align: left;
             font-family: 'Gotham-Black';
+            @media (max-width:480px){
+              font-size: 1rem;
+              line-height: 1.2rem;
+              font-family: 'Gotham-Medium';
+            }
+            @media (min-width:480px) and (max-width:767px){
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                font-size: 1.8rem;
+                line-height: 2rem;
+             }
+            @media (min-width:900px) and (max-width:1200px){
+                font-size: 2.2rem;
+                line-height: 2.8rem;
+            }
         }
         .centrartexto{
             text-align: center;

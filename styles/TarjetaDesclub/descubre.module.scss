@@ -8,11 +8,18 @@
     padding: 3rem 0 1.5rem 0; 
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
+    @media (max-width:767px){
+        font-size: 4rem;
+        padding: 1.5rem 0 1rem 0;
+    }
    }
    .contenedorboton{
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
+    @media (max-width:767px){
+        margin-right: 0;
+    }
     .boton_buscador{
         width: 25rem;
         display: flex;
@@ -27,9 +34,31 @@
         font-weight: bold;
         font-family: 'Roboto',sans-serif;
         text-align: left;
+        @media (max-width:767px){
+            width: 14rem;
+            margin: 1rem 1rem 0 0;
+            font-size: 1.5rem;
+            padding: 0.5rem 1rem;
+            text-align: center;
+        }
+        @media (min-width:767px) and (max-width:900px){
+            margin: 1rem 0 0 0;
+            padding: 0.5rem 1.5rem;
+            width: 18rem;
+            font-size: 1.9rem;
+         }
         img{
             margin-left: 1rem;
             width: 10%;
+            @media (max-width:767px){
+                margin-left: 0.5rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                width: 1.8rem;
+                height: 1.8rem;
+             }
         }
     }
     .boton_buscador:hover{
@@ -42,21 +71,60 @@
 margin-left: 1.5rem;
 margin-bottom: 3rem;
 overflow: hidden;
+@media(max-width:767px){
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
 }
 .item{
     height: 20rem;
     display: flex !important;
     flex-direction: column;
     width: calc(100% - 15px) !important;
+    @media (max-width:767px){
+        width: calc(100% - 5px) !important;
+        height: 6.5rem;
+    }
+    @media (min-width:767px) and (max-width:900px){
+        height: 11rem;
+     }
+    @media (min-width:900px) and (max-width:1200px){
+        height: 15rem;
+    }
 }
 .titulo{
     position: absolute;
     bottom: 0;
     margin:0 0 1rem 1rem;
+    @media (max-width:767px){
+      margin: 0 0 0.5rem 0.1rem;
+    }
+    @media (min-width:767px) and (max-width:900px){
+       width: 100%;
+       margin: 0;
+     }
+    @media (min-width:900px) and (max-width:1200px){
+        margin: 0 0 0.5rem 0.5rem;
+    }
     h4{
         font-size: 2rem;
         font-family: 'Gotham-Black';
         color: #FFF;
+        @media (max-width:767px){
+           font-size: 0.9rem;
+           width: 80%;
+           line-height: 1rem;
+        }
+        @media (min-width:767px) and (max-width:900px){
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            position: absolute;
+            left: 0.1rem;
+            bottom: 1rem;
+         }
+        @media (min-width:900px) and (max-width:1200px){
+            font-size: 1.7rem;
+        }
     }
 }
 

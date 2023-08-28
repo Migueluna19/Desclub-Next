@@ -1,0 +1,56 @@
+.contenedorheader{
+    width: 95%;
+    margin: 0 auto;
+    &.fijo{
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 20;
+    }
+}
+.header{
+    background-color: #FFF;
+    height: 8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logomarca{
+    width: 45%;
+    img{
+        width: 15rem;
+        height: 3rem;
+    }
+}
+.mobilemenu{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 10%;
+    min-width: 4.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.centrar{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.redes{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.boton{
+    background: none;
+    border: none;
+}

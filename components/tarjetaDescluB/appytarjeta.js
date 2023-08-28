@@ -28,12 +28,12 @@ function Appytarjeta() {
         </div>
         </div>
         <div className={styles.contenidobeneficios}>
-        <p>Intuitiva: Todo lo encuentras fácil y rápido</p>
-        <p>Inteligente: Ve los beneficios más cercanos a ti.</p>
-        <p>Exclusiva: Recibe alertas sobre descuentos exclusivos.</p>
-        <p>Garantizada: Si no te aplican el descuento te reembolsamos tu dinero.</p>
-        <p>Cercana: Si tienes alguna duda llama a nuestro call center.</p>
-        <p>Cómoda: Muestra tu tarjeta virtual y recibe beneficios al instante.</p>
+        <p><span>Intuitiva:</span> Todo lo encuentras fácil y rápido</p>
+        <p><span>Inteligente:</span> Ve los beneficios más cercanos a ti.</p>
+        <p><span>Exclusiva:</span> Recibe alertas sobre descuentos exclusivos.</p>
+        <p><span>Garantizada:</span> Si no te aplican el descuento te reembolsamos tu dinero.</p>
+        <p><span>Cercana:</span> Si tienes alguna duda llama a nuestro call center.</p>
+        <p><span>Cómoda:</span> Muestra tu tarjeta virtual y recibe beneficios al instante.</p>
         </div>
         </div>
         </div>

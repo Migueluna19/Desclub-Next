@@ -9,16 +9,26 @@
         border-top: 1px solid #FFF; 
         padding-top: 1rem;
         color: #FFF;
+        @media (max-width:767px){
+           display: flex;
+           justify-content: space-between;
+        }
         a{
             font-size: 1.5rem;
             font-family:  Helvetica, sans-serif;
             color: #FFF;
+            @media (max-width:767px){
+                font-size: 1.2rem;
+            }
         }
         p{
             color: #FFF;
             font-size: 1.5rem;
             margin: 0;
             font-family:  Helvetica, sans-serif;
+            @media (max-width:767px){
+                font-size: 1.2rem;
+            }
         }
     }
     .footer_imagen{
@@ -26,6 +36,10 @@
             width: 20rem;
             height: 2.7rem;
             margin-bottom: 1rem;
+            @media (max-width:767px){
+               width: 16rem;
+               height: 2.3rem;
+            }
         }
     }
 }
@@ -36,4 +50,13 @@
     gap: 1rem;
     margin-right: 2rem;
     padding-bottom: 0.2rem;
+    @media (max-width:480px){
+       margin-right: 0;
+    }
+    img{
+        @media (max-width:480px){
+            width: 2.3rem;
+            height: 2.3rem;
+        }
+    }
 }

@@ -7,12 +7,23 @@
         font-size: 6.5rem;
         padding-top: 2rem;
         text-transform: uppercase;
+        @media (max-width:767px){
+            font-size: 3.2rem;
+        }
+        @media (min-width:767px) and (max-width:900px){
+           font-size: 5rem;
+            }
     }
 }
 .grid{
-    display: grid;
-    grid-template-columns: 55% 45%;
-    margin:5rem 0 10rem 0;
+    @media (min-width:767px){
+        display: grid;
+        grid-template-columns: 55% 45%;
+        margin:5rem 0 10rem 0;
+    }
+    @media (min-width:767px) and (max-width:900px){
+        margin: 4rem 0 5rem 0;
+        }
 }
 .centra{
     display: flex;
@@ -27,15 +38,36 @@
     justify-content: center;
     flex-direction: column;
     width: 75%;
+    @media (max-width:767px){
+        width: 85%;
+        margin: 0 auto;
+    } 
+    @media (min-width:767px) and (max-width:1200px){
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 .titulostexto{
     margin: 1.5rem 0;
+    @media(max-width:767px){
+        width: 100%;
+    }
     p{
         font-family: 'Gotham-Black';
         font-size: 1.9rem;
         text-align: center;
         color: #FFF;
         line-height: 2.5rem;
+        @media (max-width:767px){
+            font-size: 1.2rem;
+            line-height: 2rem;
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media (min-width:767px) and (max-width:900px){
+            font-size: 1.5rem;
+            line-height: 2rem;
+            }
     }
 }
 .gridimagenes{
@@ -44,6 +76,11 @@
     margin: 2rem 0;
     gap: 2rem;
     width: 90%;
+    @media (max-width:767px){
+        width: 80%;
+        margin: 0 auto;
+        gap: 1rem;
+    }
     .gridbeneficios{
         display: flex;
         justify-content: flex-start;
@@ -52,6 +89,14 @@
         img{
             width: 6rem;
             height: 10rem;
+            @media (max-width:767px){
+                width: 3rem;
+                height: 5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                width: 4rem;
+                height: 8rem;
+                }
         }
         h4{
             font-family: 'Gotham-Black';
@@ -59,37 +104,113 @@
             text-align: center;
             font-size: 1.2rem;
             text-transform: uppercase;
+            @media (max-width:767px){
+               font-size: 1rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                font-size: 1.2rem;
+                }
         }
     }
 }
 .contenidobeneficios{
     margin: 2rem 0 5rem 0;
+    @media (max-width:767px){
+        margin: 2rem 0;
+    }
 p{
-    font-family: 'Gotham-BlackIta';
+    font-family: 'Gotham-Medium';
     font-size: 1.7rem;
     text-align: center;
     color: #FFF;
     line-height: 3.5rem;
     margin: 0 2rem;
+    @media (max-width:767px){
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    @media (min-width:767px) and (max-width:900px){
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        margin: 0 1rem;
+        }
+}
+span{
+    font-family: 'Gotham-Black';
 }
 }
 .centrado{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    @media (min-width:900px) and (max-width:1200px){
+        width: 100%;
+    }
 }
 .acomoda{
     width: 50%;
     margin-left: 5rem;
+    @media (max-width:480px){
+       width: 90%;
+       margin: 3rem auto 2rem auto;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 2rem;
+    }
+    @media (min-width:480px) and (max-width:767px){
+        width: 80%;
+        margin: 3rem auto 2rem auto;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 2rem;
+    }
+    @media (min-width:767px) and (max-width:900px){
+        width: 75%;
+        margin: 0 auto;
+        }
+    @media (min-width:900px) and (max-width:1200px){
+       width: 65%;
+       margin: 0 auto;
+    }
     .telefono{
+        @media (max-width:767px){
+            width: 90%;
+        margin: 0 auto;
+        }
         img{
             height: 48rem;
+            @media (max-width:767px){
+                height: 28rem;
+                width: 18rem;
+            }
         }
     }
     .stores{
+        @media (max-width:767px){
+            grid-column: 2/3;
+            grid-row: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5rem;
+        }
+        @media (min-width:900px) and (max-width:1200px){
+            margin-top: 2rem;
+        }
         img{
             height: 4.2rem;
+            @media (max-width:767px){
+                height: 2.5rem;
+                width: 95%;
+                margin: 0 auto;
+            }
         }
+    }
+}
+.centra{
+    @media (max-width:767px){
+        grid-column: 2/3;
+    grid-row: 1/2;
     }
 }
 .boton{
@@ -105,8 +226,21 @@ p{
     font-weight: bold;
     font-family: 'Roboto',sans-serif;
     text-align: left;
+    @media (max-width:767px){
+        margin-top: 4rem;
+        padding: 0.2rem 1.5rem;
+        font-size: 2rem;
+    }
+    @media (min-width:900px) and (max-width:1200px){
+        margin-top: 6rem;
+    }
     img{
         margin-left: 2rem;
+        @media (max-width:767px){
+            margin-left: 0.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
 }
 .boton:hover{

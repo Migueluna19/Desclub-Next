@@ -1,5 +1,5 @@
 .contenedor{
-    background-image: url(../public/img/index/Fondoindex.png);
+        background-image: url(../public/img/index/Fondoindex.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,67 +11,229 @@
             margin:0 auto;
             width: 50rem;
             height: 10rem;
+            @media (min-width:480px) and (max-width:950px){
+                width: 40rem;
+                height: 8rem;
+            }
+            @media (max-width:480px){
+                width: 25rem;
+                height: 5rem;
+            }
         }
     }
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     width: 80%;
     margin: 0 auto;
-    gap: 6rem;
-    row-gap: 3rem;
     margin-top: 1rem;
     margin-bottom: 5rem;
+    @media (max-width:950px){
+        grid-template-rows: 54% 10% 39% 12%;
+        row-gap: 0.5rem;
+        margin-top: 0;
+    }
+    @media (min-width: 950px) {
+        grid-template-columns: repeat(2,1fr);
+       row-gap: 3rem;
+       column-gap: 6rem;
+   }
     .empresas{
-        grid-column: 1/2;
-        grid-row: 1/2;
         position: relative;
         height: 44rem;
+        @media (max-width:480px){
+            width: 90%;
+            margin: 0 auto;
+            height: 25rem;
+        }
+        @media (max-width:950px){
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            width: 60%;
+            margin: 0 auto;
+            height: 28rem;
+        }
+        @media (min-width:700px) and (max-width:950px){
+            width: 60%;
+            margin: 0 auto;
+            height: 34rem;
+        }
+        @media (min-width:950px) and (max-width:1200px){
+            height: 35rem;
+            }
+        @media (min-width:950px){
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
         .fondonaranja{
             background-color: #FF7400;
-            width: 40rem;
             padding-top: 1rem;
-            height: 9rem;
+            @media (max-width:700px){
+                width: 30rem;
+                height: 7rem;
+            }
+            @media (min-width:700px) and (max-width:950px){
+                width: 40rem;
+                height: 9rem;
+            }
+            @media (min-width:950px) and (max-width:1200px){
+                width: 30rem;
+                height: 8rem;
+            }
+            @media (min-width:1200px){
+                width: 40rem;
+                height: 9rem;
+            }
             .titulo1{
+                @media (max-width:700px){
+                    font-size: 4rem;
+                  }
+                @media (min-width:700px) and (max-width:950px){
+                    font-size: 5.5rem;
+                 }
+                @media (min-width:950px) and (max-width:1200px){
+                    font-size: 5rem;
+                 }
+              @media (min-width:1200px){
                 font-size: 6.5rem;
+              }
             }
            }
     }
     .tarjetadesclub{
         position: relative;
-        grid-column: 2/3;
-        grid-row: 1/2;
-        height: 44rem;
+        @media (max-width:480px){
+            width: 90%;
+            margin: 0 auto;
+            height: 35rem;
+        }
+        @media (max-width:950px){
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            width: 60%;
+            margin: 0 auto;
+            height: 35rem;
+        }
+        @media (min-width:700px) and (max-width:950px){
+            width: 60%;
+            margin: 0 auto;
+            height: 45rem;
+        }
+        @media (min-width:950px){
+            grid-column: 2/3;
+            grid-row: 1/2;
+            height: 44rem;
+        }
+        @media (min-width:950px) and (max-width:1200px){
+            height: 35rem;
+            }
         .fondonaranja{
             background-color: #FF7400;
-            width: 42rem;
             padding-top: 1rem;
-            height: 9rem;
+            @media (max-width:700px){
+                width: 30rem;
+                height: 7rem;
+            }
+            
+            @media (min-width:700px) and (max-width:950px){
+                width: 40rem;
+                height: 9rem;
+            }
+            @media (min-width:950px) and (max-width:1200px){
+                width: 31.5rem;
+                height: 8rem;
+            }
+            @media (min-width:1200px){
+                height: 9rem;
+                width: 42rem;
+            }
             .titulo1{
-                font-size: 6.5rem;
+                @media (max-width:700px){
+                    font-size: 4rem;
+                }
+                @media (min-width:700px) and (max-width:950px){
+                    font-size: 5.5rem;
+                 }
+                @media (min-width:950px) and (max-width:1200px){
+                    font-size: 5rem;
+                 }
+                @media(min-width: 1200px){
+                    font-size: 6.5rem;
+                }
+                
             }
            }
     } 
 
     .imagenempresa{
         position: relative;
+        @media (min-width:400px) and (max-width:480px){
+            margin-left: 2rem;
+        }
+    
     .imagen1{
         position: absolute;
         left: -9rem;
-        bottom: 8rem;
+        bottom: 6rem;
         z-index: 10;
-        width: 70%;
+        width: 32rem;
         height: 27rem;
         transition-property:all;
         transition-duration: 500ms;
+        @media (max-width:480px) {
+            left: -3rem;
+            bottom: 5rem;
+            width: 18rem;
+            height: 15rem;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            left: -4rem;
+            bottom: 6rem;
+            width: 20rem;
+            height: 16rem;
+        }  
+        @media (min-width:700px) and (max-width:950px){
+            left: -4rem;
+            bottom:8rem;
+            width: 25rem;
+            height: 20rem;
+        }  
+        @media (min-width:950px) and (max-width:1200px){
+        width: 26rem;
+        height: 20rem;
+        left: -9rem;
+        bottom: 5rem;
+        }
+       
     }
    
     .imagen2{
         z-index: 5;
-        height: 45rem;
+        height: 46rem;
+        width: 53rem;
         transition-property:all;
         transition-duration: 500ms;
+
+        @media (max-width:480px) {
+            width: 31rem;
+            height: 25rem;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            width: 35rem;
+            height: 30rem;
+        }  
+        @media (min-width:700px) and (max-width:950px){
+            width: 45rem;
+            height: 35rem;
+        }  
+        @media (min-width:950px) and (max-width:1200px){
+            width: 45rem;
+            height: 35rem;
+        }
     }
   
     }
@@ -91,23 +253,68 @@
     .imagendesclub{
         position: relative;
         margin-left: 7rem;
-        width: 100%;
+        @media (max-width:400px){
+            margin-left: 7rem;
+        }
+        @media (min-width:400px) and (max-width:480px){
+            margin-left: 9rem;
+        }
     .imagen1{
         position: absolute;
         left: -2rem;
         bottom: 2rem;
-        width: 60%;
+        width: 28rem;
         height: 40rem;
         transition-property:all;
         transition-duration: 700ms;
         z-index: 10;
+        @media (max-width:480px) {
+            left: -9rem;
+            bottom: 1rem;
+            width: 22rem;
+            height: 33rem;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            left: -8rem;
+            bottom: 1rem;
+            width: 25rem;
+            height: 36rem;
+        }  
+        @media (min-width:700px) and (max-width:950px){
+            left: -12rem;
+            bottom: 1rem;
+            width: 30rem;
+            height: 41rem;
+        }  
+        @media (min-width:950px) and (max-width:1200px){
+        width: 28rem;
+        height: 35rem;
+        left: -10rem;
+        bottom: 2rem;
+        }
     }
     .imagen2{
         height: 45rem;
-        width: 60%;
+        width: 30rem;
         margin: 0 auto;
         transition-property:all;
         transition-duration: 700ms;
+        @media (max-width:480px) {
+            width: 22rem;
+            height: 38rem;
+        }
+        @media (min-width:480px) and (max-width:700px){
+            width: 28rem;
+            height: 40rem;
+        }  
+        @media (min-width:700px) and (max-width:950px){
+            width: 34rem;
+            height: 48rem;
+        }  
+        @media (min-width:950px) and (max-width:1200px){
+            width: 30rem;
+            height: 40rem;
+        }
     }
     }
     .imagendesclub:hover{
@@ -128,6 +335,16 @@
         bottom: -2rem;
         left:5rem;
         z-index: 20;
+        @media (max-width:400px){
+            left: -1rem;
+        }
+        @media (min-width:400px) and (max-width:700px){
+            left: 1rem;
+        }
+        @media (min-width:700px) and (max-width:950px){
+            left:-2rem;
+        }
+
        h1{
         color: #FFF;
         font-family: 'Gotham-Bold';
@@ -135,31 +352,108 @@
         text-align: left;
         text-transform: uppercase;
         font-size: 4.5rem;
+        @media (max-width:700px){
+            font-size: 3.3rem;
+            line-height: 3.9rem;
+            text-align: center;
+         }
+        @media (min-width:700px) and (max-width:950px){
+            font-size: 4.5rem;
+            line-height: 5.2rem;
+            text-align: center;
+         }
+        @media (min-width:950px) and (max-width:1200px){
+            font-size: 3.2rem;
+            line-height: 4.5rem;
+         }
        }
     }
    .texto{
     margin-left: 5rem;
-    .textoempresa{
-        width: 85%;
-        margin-top: 2.5rem;
+   @media (max-width:950px){
+    display: none;
+   }
+   }
+   .textomobile{
+    @media (max-width:480px){
+        margin-left: 0;
     }
-    .textotarjeta{
-        width: 90%;
-        margin-top: 2.5rem;
+    @media (min-width:949px){
+        display: none;
     }
-    p{
-        font-family: 'Gotham-Medium';
-        font-size: 1.8rem;
-        line-height: 2rem;
-        color: #FFF;
+    @media(min-width: 480px) and (max-width: 950px){
+        width: 80%;
+        margin: 0 auto;
     }
    }
+   .textoempresa{
+    width: 85%;
+    margin-top: 2.5rem;
+    @media (max-width:480px){
+       width: 95%;
+       margin: 0 auto;
+    }
+    @media (min-width:480px) and (max-width:700px){
+        width: 40rem;
+        margin: 0 auto;
+        margin-left: 4rem;
+    }
+    @media (min-width:700px) and (max-width:950px){
+        width: 50rem;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+}
+.textotarjeta{
+    width: 89%;
+    margin-top: 2.5rem;
+    @media (max-width:480px){
+        padding-top: 1rem;
+        width: 90%;
+        margin: 0 auto;
+     }
+     @media (min-width:480px) and (max-width:700px){
+        width: 40rem;
+        margin: 0 auto;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+    @media (min-width:700px) and (max-width:950px){
+        width: 45rem;
+        margin: 0 auto;
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+    }
+}
+p{
+    font-family: 'Gotham-Medium';
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #FFF;
+    @media (max-width:480px){
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+     }
+     @media (min-width:480px) and (max-width:950px){
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.2rem;
+     }
+}
     
 }
 .footer{
     width: 95%;
     margin: 0 auto;
     padding-bottom: 1rem;
+    .enlaces{
+        display: flex;
+        justify-content: space-between;
+    }
+    @media (max-width:950px){
+        padding-top: 10rem;
+    }
     .footer_enlace{
         border-top: 1px solid #FFF;
         padding-top: 1rem;
@@ -186,3 +480,11 @@
         }
     }
 }
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
+    padding-bottom: 0.2rem;
+} 
