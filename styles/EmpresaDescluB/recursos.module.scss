@@ -1,11 +1,24 @@
 .contenedorprincipal{
     margin: 10rem auto;
+    @media (max-width:900px){
+      margin: 4rem auto;
+    }
+    @media (min-width:900px) and (max-width:1200px){
+      margin: 5rem auto;
+     }
     h1{
         font-size: 7rem;
         color:#FF7400;
         margin-bottom: 1rem;
         text-transform: uppercase;
         font-family: 'Gotham-Bold';
+        @media (max-width:767px){
+          font-size: 3.2rem;
+          margin-bottom: 0;
+      }
+      @media (min-width:767px) and (max-width:900px){
+         font-size: 5rem;
+          }
     }
 }
 .contenedorimagenes{
@@ -13,6 +26,12 @@
     margin: 0 auto;
     height: auto;
     margin-bottom: 2rem;
+    @media (max-width:767px){
+      width: 90%;
+  }
+  @media (min-width:767px) and (max-width:900px){
+     width: 85%;
+      }
     .contenedorauxiliar{
         width: 85%;
         display: grid;
@@ -36,6 +55,10 @@
     position: absolute;
     bottom: 0;
     margin:0 0 1rem 1rem;
+    @media (max-width:767px){
+      margin: 0 0 0.2rem 0.5rem;
+  }
+
     h4{
         font-size: 2.5rem;
         font-family: 'Gotham-Black';
@@ -43,6 +66,15 @@
         color: #FFF;
         text-align: left;
         width: 80%;
+        @media (max-width:767px){
+          font-size: 1.4rem;
+          line-height: 1.4rem;
+          width: 95%;
+      }
+      @media (min-width:767px) and (max-width:900px){
+         font-size: 2rem;
+         line-height: 2rem;
+          }
     }
 }
 .imagen1{

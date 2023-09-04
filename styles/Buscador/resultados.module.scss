@@ -4,20 +4,37 @@
 .grid{
     width: 90%;
     margin: 0 auto;
-    display: grid;
+    @media (min-width:768px){
+        display: grid;
     grid-template-columns:60% 40%;
-    gap: 5rem;
+    }
+    @media(min-width:768px) and (max-width:900px){
+        gap: 1rem;
+        width: 95%;
+    }
+    @media(min-width:900px) and (max-width:1200px){
+        gap: 4rem;
+    }
+    @media (min-width:1200px){
+        gap: 5rem;
+    }
 }
 
 .titulo{
     border-bottom: 4px solid #707070;
     width: 100%;
     margin: 0 auto;
+    @media (max-width:480px){
+        border-bottom: 3px solid #707070;
+    }
     label{
         font-size: 1.8rem;
         font-family: 'Gotham-Bold';
         color: #707070;
         padding: 0.7rem;
+        @media (max-width:480px){
+            font-size: 1.2rem;
+        }
     }
 }
 .contenedorcupon{
@@ -29,9 +46,40 @@
     display: grid;
     grid-template-columns: 20% 55% 25%;
     padding: 2rem 0;
+    @media (max-width:767px){
+        padding: 1rem 0;
+        grid-template-columns: 25% 50% 25%;
+    }
     .imagen{
         width: 60%;
         margin: 0 auto;
+        @media (max-width:480px){
+           width: 90%;
+           img{
+            height: 9rem;
+           }
+        }
+        @media (min-width:480px) and (max-width:767px){
+            width: 80%;
+            max-width: 10rem;
+            img{
+                height: 10rem;
+            }
+        }
+        @media (min-width:768px) and (max-width:900px){
+            width: 90%;
+            max-width: 9rem;
+            img{
+                height: 9rem;
+            }
+        }
+        @media(min-width:900px) and (max-width:1200px){
+            width: 90%;
+            max-width: 11rem;
+            img{
+                height: 11rem;
+            }
+        }
     }
     .promocion{
        h3{
@@ -42,6 +90,24 @@
         font-size: 2rem;
         text-transform: uppercase;
         margin-top: 1rem;
+        @media (max-width:480px){
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+        @media(min-width:480px) and (max-width:767px){
+            font-size: 1.8rem;
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+        @media (min-width:768px) and (max-width:1200px){
+           padding-left: 1rem;
+            margin-top: 0.8rem;
+            font-size: 1.8rem;
+        }
+        @media(min-width:900px) and (max-width:1200px){
+            margin-top: 1.2rem;
+         }
        }
        h4{
         color: #707070;
@@ -49,6 +115,24 @@
         padding-left: 3rem;
         font-family: 'Gotham-Medium';
         font-size: 2rem;
+        @media (max-width:480px){
+            padding-left: 1rem;
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+        @media(min-width:480px) and (max-width:767px){
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+            padding-left: 1rem;
+        }
+        @media (min-width:768px) and (max-width:1200px){
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+            padding-left: 1rem;
+        }
+        @media(min-width:900px) and (max-width:1200px){
+           margin-top: 1rem;
+        }
        }
     }
     .descuento{
@@ -66,10 +150,26 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:480px){
+               width: 5.5rem;
+               height: 5.5rem;
+               margin: 0 auto;
+            }
+            @media(min-width:480px) and (max-width:900px){
+                width: 6.5rem;
+                height: 6.5rem;
+                margin: 0 auto;
+            }
             h4{
                 color: green;
                 font-family: 'Gotham-Medium';
                 font-size: 2rem;
+                @media (max-width:480px){
+                    font-size: 1.5rem;
+                }
+                @media(min-width:480px) and (max-width:900px){
+                   font-size: 1.8rem;
+                }
             }
         }
         .vermas{
@@ -81,13 +181,30 @@
                 color: green;
                 font-family: 'Gotham-Medium';
                 font-size: 1.5rem;
+                @media (max-width:480px){
+                    font-size: 1rem;
+                }
+                @media(min-width:480px) and (max-width:900px){
+                    font-size: 1.2rem;
+                }
             }
         }
+    }
+}
+.carruselpromociones{
+    @media (max-width:767px){
+        display: none;
     }
 }
 .slidercupones{
     margin: 6rem auto 0 auto;
     overflow: hidden;
+    @media (min-width:768px) and (max-width:900px){
+     margin: 4rem auto 0 auto;
+    }
+    @media(min-width:900px) and (max-width:1200px){
+        margin: 5rem auto 0 auto;
+     }
 }
 
 .sticky{
@@ -113,12 +230,22 @@
         img{
             width: 100%;
             height: 25rem;
+            @media (min-width:768px) and (max-width:900px){
+              height: 15rem;
+            }
+            @media(min-width:900px) and (max-width:1200px){
+                height: 20rem;
+             }
         }
+        
     }
     .promo{
         display: grid;
         grid-template-columns: 70% 30%;
         margin-top: 1rem;
+        @media (min-width:768px) and (max-width:900px){
+         grid-template-columns: 65% 35%;
+         }
         .promocion{
             padding-left: 1rem;
             h3{
@@ -129,6 +256,14 @@
              font-size: 1.5rem;
              text-transform: uppercase;
              margin-top: 1rem;
+             @media (min-width:768px) and (max-width:900px){
+               font-size: 1.2rem;
+               padding-left: 0.5rem;
+            }
+            @media(min-width:900px) and (max-width:1200px){
+               font-size: 1.4rem;
+               padding-left: 1rem;
+             }
             }
             h4{
              color: #707070;
@@ -136,6 +271,15 @@
              padding-left: 2rem;
              font-family: 'Gotham-Medium';
              font-size: 1.5rem;
+             @media (min-width:768px) and (max-width:900px){
+                font-size: 1.2rem;
+                padding-left: 0.5rem;
+                line-height: 2rem;
+             }
+             @media(min-width:900px) and (max-width:1200px){
+                font-size: 1.4rem;
+                padding-left: 1rem;
+              }
             }
          }
          .descuento{
@@ -153,10 +297,18 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @media (min-width:768px) and (max-width:900px){
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    margin: 0 auto;
+                 }
                 h4{
                     color: green;
                     font-family: 'Gotham-Medium';
                     font-size: 1.5rem;
+                    @media (min-width:768px) and (max-width:900px){
+                        font-size: 1.2rem;
+                     }
                 }
             }
             .vermas{
@@ -168,6 +320,9 @@
                     color: green;
                     font-family: 'Gotham-Medium';
                     font-size: 1.3rem;
+                    @media (min-width:768px) and (max-width:900px){
+                        font-size: 1rem;
+                     }
                 }
             }
         }
@@ -176,27 +331,71 @@
 .contenedorresultado{
     height: auto;
     .gridresultado{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
         width: 90%;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
+        @media (max-width:480px){
+            width: 95%;
+        }
+        @media (min-width:767px){
+         display: grid;
+        grid-template-columns: repeat(2,1fr);
         gap: 2rem;
+        }
+        @media (min-width:768px) and (max-width:900px){
+            gap: 1rem;
+        }
         .imagencupon{
             width: 90%;
             margin: 0 auto;
+            @media (min-width:768px) and (max-width:1200px){
+               width: 100%;
+            }
             img{
                 height: 26rem;
+                @media (max-width:767px){
+                    height: 16rem;
+                }
+                @media (min-width:768px) and (max-width:900px){
+                    height: 20rem;
+                }
+                @media (min-width:900px) and (max-width:1200px){
+                   height: 24rem;
+                }
             }
         }
         .terminos{
             width: 100%;
+            @media (max-width:767px){
+                display: grid;
+                grid-template-columns: 30% 70%;
+                width: 90%;
+                margin: 3rem auto 1rem auto;
+            }
             .logo{
                 width: 25%;
                 margin: 0 auto;
+                @media (max-width:767px){
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                }
+                @media (min-width:768px) and (max-width:900px){
+                   width: 35%;
+                }
+                @media (min-width:900px) and (max-width:1200px){
+                    width: 30%;
+                }
                 img{
                     height: 4rem;
+                    @media (max-width:480px){
+                        height: 3rem;
+                    }   
+                    @media (min-width:480px) and (max-width:767px){
+                       height: 3.5rem;
+                    }
                 }
             }
             .contenido{
@@ -205,12 +404,44 @@
                     font-family: 'Gotham-Black';
                     font-size: 2.5rem;
                     margin: 1rem 0;
+                    @media (max-width:480px){
+                        font-size: 1.2rem;
+                        line-height: 1.6rem;
+                    }
+                    @media (min-width:480px) and (max-width:767px){
+                        font-size: 1.6rem;
+                        line-height: 2rem;
+                    }
+                    @media (min-width:768px) and (max-width:900px){
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                    }
+                    @media (min-width:900px) and (max-width:1200px){
+                       font-size: 2.2rem;
+                       line-height:3rem;
+                    }
                 }
                 h4{
                     color: #707070;
                     font-family: 'Gotham-Medium';
                     font-size: 2rem;
                     margin: 1rem 0;
+                    @media (max-width:480px){
+                        font-size: 1rem;
+                        line-height: 1.4rem;
+                    }
+                    @media (min-width:480px) and (max-width:767px){
+                        font-size: 1.4rem;
+                        line-height: 1.8rem;
+                    }
+                    @media (min-width:768px) and (max-width:900px){
+                       font-size: 1.8rem;
+                       line-height: 2.2rem;
+                    }
+                    @media (min-width:900px) and (max-width:1200px){
+                       font-size: 2rem;
+                       line-height: 2.8rem;
+                    }
                 }
             }
         }
@@ -219,11 +450,26 @@
         width: 85%;
         margin: 5rem auto 0 auto;
         padding-bottom: 3rem;
+        @media (max-width:767px){
+            width: 80%;
+            margin: 2rem auto;
+        }
+        @media (min-width:768px) and (max-width:1200px){
+            width: 90%;
+            margin: 4rem auto;
+        }
         p{
             color: #707070;
             font-family: 'Gotham-Medium';
             font-size: 1.2rem;
             line-height: 1.4rem;
+            @media (max-width:480px){
+                font-size: 0.8rem;
+                line-height: 0.9rem;
+            }
+            @media (min-width:480px) and (max-width:767px){
+                line-height: 1.5rem;
+            }
         }
     }
 }

@@ -3,8 +3,13 @@ import styles from "../../styles/EmpresaDescluB/beneficioprincipal.module.scss"
 function Beneficioprincipal() {
   return (
     <div className={styles.contenidoprincipal}>
+      <div className={styles.imagenprincipalmobile}>
+      <div className={styles.imagenmobile}>
+      <img src="/img/EmpresaDesclub/principalEmpresasMobile.png" width={30} height={300} alt="Imagen Beneficios Empresa"/>
+      </div>
+    </div>
     <div className={styles.titulos}>
-    <div className={styles.contenedortitulo}>
+    <div className={styles.contenedortitulo}> 
     <div className={styles.alineaizquierda}> 
     <h1>Beneficios</h1>
     </div>
@@ -23,7 +28,9 @@ function Beneficioprincipal() {
     </div>
     </div>
     <div className={styles.imagenprincipal}>
-    <img src="/img/EmpresaDesclub/principalEmpresas.png" width={30} height={300} alt="Imagen Beneficios Empresa"/>
+      <div className={styles.imagendesktop}>
+      <img src="/img/EmpresaDesclub/principalEmpresas.png" width={30} height={300} alt="Imagen Beneficios Empresa"/>
+      </div>
     </div>
     </div>
   )

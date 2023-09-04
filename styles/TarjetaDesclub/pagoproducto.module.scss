@@ -1,16 +1,54 @@
 .contenedor{
     height: auto;
     padding-top: 5.5rem;
+    @media (max-width:767px){
+        padding-top: 2rem;
+    }
+    @media (min-width:900px) and (max-width:1200px){
+        padding-top: 4.5rem;
+    }
     .titulos{
         width: 35%;
         margin: 0 auto;
         padding: 5rem 0 2rem 0;
-        
+        @media (max-width:480px){
+            width: 80%;
+            padding: 5rem 0 0 0;
+            max-width: 29rem;
+        }
+        @media (min-width:480px) and (max-width:767px){
+            width: 60%;
+            padding: 5rem 0 0 0;
+            max-width: 30rem;
+        }
+        @media (min-width:768px) and (max-width:900px){
+            width: 60%;
+            padding: 3rem 0 0 0;
+            max-width: 40rem;
+        }
+        @media (min-width:900px) and (max-width:1200px){
+            width: 50%;
+            padding: 3rem 0 0 0;
+        }
         p{
             text-align: center;
             font-size: 2rem;
             color: #5C5B5B;
             font-family: 'Gotham-Medium';
+            @media (max-width:767px){
+                font-size: 1.6rem;
+                line-height: 2rem;
+                width: 95%;
+            }
+            @media (min-width:768px) and (max-width:900px){
+               font-size: 2rem;
+               width: 90%;
+               margin: 0 auto;
+            }
+            @media (min-width:900px) and (max-width:1200px){
+                width: 85%;
+                margin: 2rem auto;
+            }
         }
         h1{
             font-size: 7.5rem;
@@ -19,6 +57,22 @@
             color: #158BC8;
             text-transform: uppercase;
             font-family: 'Gotham-Bold';
+            @media (max-width:767px){
+                font-size: 4.5rem;
+                line-height: 4.5rem;
+                text-align: left;
+                width: 80%;
+                margin: 0 auto;
+                font-family: 'Gotham-Medium';
+            }
+            @media (min-width:768px) and (max-width:900px){
+                font-size: 6rem;
+                line-height: 6rem;
+            }
+            @media (min-width:900px) and (max-width:1200px){
+                font-size: 8rem;
+                line-height: 8rem;
+            }
         }
         span{
             font-weight: 600;
@@ -26,26 +80,57 @@
         .fondonaranja{
             width: 75%;
             margin: 0 auto 5rem auto;
+            @media (max-width:767px){
+                width: 100%;
+                margin: 0 auto 3rem auto;
+            }
+            @media (min-width:768px) and (max-width:900px){
+                width: 85%;
+                margin: 0 auto 3rem auto;
+            }
+            @media (min-width:900px) and (max-width:1200px){
+                width: 75%;
+                max-width: 38.4rem;
+            }
             h1{
                 color: #FFF;
                 background-color: #FF7400;
                 font-size: 6rem;
+                @media (max-width:767px){
+                    font-size: 3.8rem;
+                    font-family: 'Gotham-Bold';
+                }
+                @media (min-width:768px) and (max-width:900px){
+                   font-size: 5.5rem;
+                }
             }
         }
     }
 }
 .facturacion{
     padding: 4rem 0;
+    @media (max-width:767px){
+       padding: 1.5rem 0;
+      }
+      @media (min-width:768px) and (max-width:1200px){
+       padding: 2rem 0;
+     }
 }
 
 .datospago{
     width: 80%;
     margin: 0 auto;
+    @media (max-width:767px){
+        width: 85%;
+    }
     .datostitulo{
         border-bottom: 4px solid #707070;
         padding-bottom: 0.4rem;
         width: 80%;
         margin: 0 auto;
+        @media (max-width:1200px){
+            width: 100%;
+        }
         label{
             font-size: 1.8rem;
             font-family: 'Gotham-Bold';
@@ -53,6 +138,10 @@
             padding: 0.7rem;
             padding-right: 4rem;
             border-bottom: 4px solid #FF7400;
+            @media (max-width:767px){
+                font-size: 1.5rem;
+                padding-right: 3rem;
+              }
         }
     }
     .datostitulod{
@@ -62,6 +151,9 @@
         display: flex;
         justify-content: center;
         margin-bottom: 3rem;
+        @media (max-width:1200px){
+            width: 100%;
+        }
         label{
             font-size: 1.8rem;
             font-family: 'Gotham-Bold';
@@ -69,6 +161,10 @@
             padding: 0.7rem;
             padding-right: 4rem;
             border-bottom: 4px solid #FF7400;
+            @media (max-width:767px){
+                font-size: 1.5rem;
+                padding-right: 3rem;
+              }
         }
     }
     .datostitulof{
@@ -78,6 +174,10 @@
         display: flex;
         justify-content: flex-end;
         margin-bottom: 5rem;
+        @media (max-width:1200px){
+            width: 100%;
+            margin-bottom: 3rem;
+        }
         label{
             font-size: 1.8rem;
             font-family: 'Gotham-Bold';
@@ -85,6 +185,10 @@
             padding: 0.7rem;
             padding-right: 4rem;
             border-bottom: 4px solid #FF7400;
+            @media (max-width:767px){
+                font-size: 1.5rem;
+                padding-right: 3rem;
+              }
         }
     }
 }
@@ -93,23 +197,52 @@
     gap: 2rem;
     width: 30%;
     margin: 3rem auto;
+    @media (max-width:767px){
+        margin: 3rem auto 1rem auto;
+        width: 60%;
+        gap: 1.5rem;
+      }
+      @media (min-width:768px) and (max-width:900px){
+        width: 40%;
+        gap: 1.5rem;
+     }
     label{
         text-transform: uppercase;
         font-size: 1.8rem;
         font-weight: 500;
         color: #707070;
         font-family: 'Gotham-Bold';
+        @media (max-width:767px){
+            font-size: 1.4rem;
+          }
+          @media (min-width:768px) and (max-width:900px){
+           font-size: 1.6rem;
+         }
     }
 }
 .grid{
-    display: grid;
+    @media (max-width:900px){
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    @media (min-width:900px){
+        display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
+    }
 }
 .campo{
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
+    @media (min-width:768px) and (max-width:900px){
+        width: 90%;
+        margin: 1rem auto;
+     }
+     @media (min-width:900px) and (max-width:1200px){
+        width: 90%;
+    }
 }
 .campo_label{
     margin-left: 1.5rem;
@@ -117,6 +250,13 @@
     font-family: 'Gotham-Bold';
     font-weight: bold;
     font-size: 1.6rem;
+    @media (max-width:767px){
+       font-size: 1.4rem;
+       margin-left: 0.5rem;
+    }
+    @media (min-width:900px) and (max-width:1200px){
+        margin-left: 0;
+    }
 }
 .campo_field{
     width: 100%;
@@ -124,65 +264,147 @@
     padding: 1.2rem 0;
     border:1px solid #D8D8D8;
     box-shadow: 0px 3px 6px #00000029;
+    @media (max-width:767px){
+       padding: 0.8rem 0;
+       border-radius: 3rem;
+    }
+    @media (min-width:768px) and (max-width:900px){
+        padding: 1rem 0;
+        border-radius: 3rem;
+     }
 }
 .campor{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
+    @media (max-width:900px){
+        margin-top: 2rem;
+    }
     .radios{
         width: 80%;
         margin: 0 auto;
+        @media (max-width:767px){
+            width: 70%;
+        }
+        @media (min-width:768px) and (max-width:900px){
+            width: 50%;
+            margin: 0.2rem auto;
+         }
+         @media (min-width:900px) and (max-width:1200px){
+            width: 100%;
+            margin: 0.5rem 0;
+        }
         label{
             text-decoration: underline;
             font-size: 1.5rem;
             margin-left: 1rem;
             font-family: 'Gotham-Bold';
+            color: #158BC8;
+            @media (max-width:767px){
+               font-size: 1.2rem;
+               margin-left: 0;
+            }
+            @media (min-width:900px) and (max-width:1200px){
+                margin-left: 0;
+                font-size: 1.4rem;
+            }
         }
     }
 }
 .gridf{
-    display: grid;
+    @media (min-width:900px){
+        display: grid;
     grid-template-columns: 30% 70%;
+    }
+    @media (min-width:900px) and (max-width:1200px){
+        gap: 5rem;
+    }
     .campo_field{
         width: 70%;
+        @media (max-width:1200px){
+           width: 100%;
+         }
     }
     .campocvv{
-        display: flex;
+        @media (min-width:900px){
+            display: flex;
+        }
+        @media (min-width:900px) and (max-width:1200px){
+            gap: 8rem;
+        }
         .fechaexp{
             width: 50%;
+            @media (max-width:900px){
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         .campo_field{
             width: 85%;
+            @media (max-width:900px){
+                width: 100%;
+            }
         }
         .cvc{
             display: flex;
             flex-direction: column;
+            @media (max-width:900px){
+                width: 90%;
+                margin: 1rem auto 0 auto;
+            }
             .campo_field{
                 width: 90%;
+                @media (max-width:900px){
+                    width: 100%;
+                }
             }
         }
     }
 
 }
 .radiotarjetas{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding:1.5rem 0 0 4rem;
-    gap: 1rem;
+    @media (max-width:900px){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+        row-gap: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width:768px) and (max-width:900px){
+        column-gap: 20rem;
+        row-gap: 1.5rem;
+     }
+    @media (min-width:900px){
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding:1.5rem 0 0 4rem;
+        gap: 1rem;
+    }
+    
     .tarjeta{
        display: flex;
        gap:1rem;
+       @media (max-width:767px){
+        gap: 1rem;
+    }
        img{
         width: 9rem;
         height: 4.4rem;
+        @media (max-width:767px){
+           width: 6.5rem;
+           height: 3rem;
+        }
        }
        label{
         font-size: 1.7rem;
         color: #5C5B5B;
         font-family: 'Gotham-Bold';
+        @media (max-width:767px){
+            font-size: 1.2rem;
+         }
        }
     }
 }
@@ -191,6 +413,17 @@
     display: flex;
     justify-content: flex-start;
     padding:4rem 0 4rem 5rem;
+    @media (max-width:767px){
+        padding: 3rem 0;
+        width: 35%;
+        margin: 0 auto;
+    }
+    @media (min-width:768px) and (max-width:900px){
+        padding: 3rem 0;
+        width: 30%;
+        margin: 0 auto;
+     }
+    
     .botoncomprar{
         display: flex;
         align-items: center;
@@ -204,8 +437,26 @@
         font-weight: bold;
         font-family: 'Roboto',sans-serif;
         text-align: left;
+        @media (max-width:767px){
+            padding: 0.3rem 1.2rem;
+            font-size: 1.8rem;
+            margin-top: 0;
+        }
         img{
             margin-left: 3rem;
+            @media (max-width:767px){
+                margin-left: 0.5rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+            @media (min-width:767px) and (max-width:900px){
+                width: 2rem;
+                height: 2rem;
+                margin-left: 1rem;
+             }
+            @media (min-width:900px) and (max-width:1200px){
+                margin-left: 1.5rem;
+            }
         }
     }
     .botoncomprar:hover{

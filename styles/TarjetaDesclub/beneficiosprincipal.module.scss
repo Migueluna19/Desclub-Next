@@ -15,18 +15,29 @@
 // .degradado{
 //     background-image: url(../public/img/DegradadoMundoBeneficios.png);
 // }
-.imagenprincipal{
+.imagenprincipal{ 
     position: relative; 
-   img{
-    height: 100%;
-    @media(max-width:767px){
-        height: 45rem;
+    .imagendesktop{
+        @media (max-width:899px){
+                display: none;
+        }
+        img{
+            height: 100%;
+           }
     }
-    @media (min-width:767px) and (max-width:900px){
-        height: 50rem;
+    .imagenmobile{
+        @media (min-width:900px){
+            display: none;
+        }
+        img{
+            @media (min-width:767px) and (max-width:900px){
+                height: 50rem;
+            }
+            @media(max-width:767px){
+                height: 45rem;
+            }
+        }
     }
-
-   }
 }
 .imagenprincipal::before{
     content: '';
@@ -65,7 +76,7 @@
     padding-left: 3rem;
     }
     @media (min-width:900px) and (max-width:1200px){
-        font-size: 8rem;
+        font-size: 7rem;
         line-height: 8rem;
         padding-left: 3rem;
     }
@@ -107,7 +118,7 @@
                 line-height: 6rem;
                 }
             @media (min-width:900px) and (max-width:1200px){
-                font-size: 5.8rem;
+                font-size: 5.2rem;
                 line-height: 5.5rem;
             }
         }
@@ -128,8 +139,8 @@
         text-align: center;
         line-height: 4rem;
         @media (max-width:767px){
-            font-size: 1.4rem;
-            line-height: 2rem;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
             margin: 1.5rem auto;
         }
         @media (min-width:767px) and (max-width:900px){

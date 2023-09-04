@@ -31,7 +31,7 @@ export default function Home() {
 
       </div>
       <div className={styles.texto}>
-      <p className={styles.textoempresa}>Planes de lealtad, programa de beneficios, incentivos, promociones y sorteos.</p>
+      <p className={styles.textoempresa}>Planes de lealtad, programas de beneficios, incentivos, promociones.</p>
       </div>
       <div className={styles.textomobile}>
       <p className={styles.textoempresa}>Conoce los beneficios y las últimas novedades de la membresía Desclub, accede a descuentos y red médica.</p>
@@ -56,7 +56,7 @@ export default function Home() {
       <p className={styles.textotarjeta}>Conoce los beneficios y las últimas novedades de la membresía Desclub, accede a descuentos y red médica.</p>
       </div>
       <div className={styles.textomobile}>
-      <p className={styles.textotarjeta}>Planes de lealtad, programa de beneficios, incentivos, promociones y sorteos.</p>
+      <p className={styles.textotarjeta}>Planes de lealtad, programas de beneficios, incentivos, promociones.</p>
       </div>
      </div>
      <div className={styles.footer}>

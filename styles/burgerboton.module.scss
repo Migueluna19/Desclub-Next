@@ -1,13 +1,13 @@
 .navicon5{
-    width: 28px;
-    height: 26px;
+    width: 25px;
+    height: 23px;
     margin: 1px 1px;
     position: relative;
     cursor: pointer;
     display: inline-block;
   }
   .navicon5 span{
-    background-color:#5C5B5B;
+    background-color:#8E8E8E;
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -20,13 +20,14 @@
     left: 0px;
   }
   .navicon5 span:nth-child(2){
-    top:11px;
+    top:9px;
     left: 0px;
     opacity:1;
   }
   .navicon5 span:nth-child(3){
     bottom:0px;
     left: 0px;
+    top: 18px;
   }
   .navicon5:not(.open):hover span:nth-child(1){
     transform: rotate(-3deg) scaleY(1.1);

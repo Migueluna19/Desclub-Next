@@ -63,7 +63,7 @@ function Recursos() {
         <img src="img/EmpresaDesclub/gsatisfaccion.png" width={100} height={100} alt="Imagen Garantia Satisfaccion"/>
         </div>
         <div className={styles.titulo}>
-        <h4>Garantia Satisfaccion</h4>
+        <h4>Garantía Satisfaccion</h4>
         </div>
         </div>
         

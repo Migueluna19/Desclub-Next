@@ -20,7 +20,7 @@ function Resultados() {
     <div className={styles.cupones}>
     <Cupones/>
     </div>
-    <div>
+    <div className={styles.carruselpromociones}>
         <div className={styles.sticky}>
         <div className={styles.desborde}>
         <Slider {...settings}>

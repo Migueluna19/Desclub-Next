@@ -5,7 +5,12 @@ function Beneficiosprincipal() {
   return (
       <div className={styles.contenidoprincipal}>
         <div className={styles.imagenprincipal}>
-        <img src="/img/tarjetadesclub/ImagenMundoBeneficios.png" width={30} height={300} alt="Imagen Mundo de Beneficios"/>
+          <div className={styles.imagendesktop}>
+          <img  src="/img/tarjetadesclub/ImagenMundoBeneficios.png" width={30} height={300} alt="Imagen Mundo de Beneficios Desktop"/>
+          </div>
+          <div className={styles.imagenmobile}>
+          <img  src="/img/tarjetadesclub/ImagenMundoBeneficiosMobile.png" width={30} height={300} alt="Imagen Mundo de Beneficios"/>
+          </div>
         </div>
         <div className={styles.titulos}>
         <div className={styles.contenedortitulo}>

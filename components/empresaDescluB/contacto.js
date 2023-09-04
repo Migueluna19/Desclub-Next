@@ -5,7 +5,9 @@ function Contacto() {
     <div className={styles.contenedorprincipal}>
       <div className={styles.texto}>
       <h1>Contacto</h1>
+      <div className={styles.textodesktop}>
       <p>Si deseas contratar un servicio hecho a la medida para tu empresa o más información, contáctanos.</p>
+      </div>
       </div>
       <div className={styles.grid}>
         <div className={styles.campos}>
@@ -43,6 +45,9 @@ function Contacto() {
         </div>
         <div className={styles.imagenformulario}>
         <img src="/img/tarjetadesclub/ImagenFormulario.png" width={100} height={100} alt="Imagen Publicitaria"/>
+        <div className={styles.textomobile}>
+        <p>Si deseas contratar un servicio hecho a la medida para tu empresa o más información, contáctanos.</p>
+      </div>
         </div>
         </div>
     </div>
