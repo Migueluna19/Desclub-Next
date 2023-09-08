@@ -4,5 +4,6 @@
   "/_document": "pages/_document.js",
   "/tarjetadesclub": "pages/tarjetadesclub.js",
   "/": "pages/index.js",
-  "/buscador": "pages/buscador.js"
+  "/empresadesclub": "pages/empresadesclub.js",
+  "/hotdeals": "pages/hotdeals.js"
 }

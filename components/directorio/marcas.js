@@ -2,6 +2,7 @@ import styles from "../../styles/Directorio/marcas.module.scss"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState,useEffect } from "react";
 
 const marcas=[{
     image:'acuario.png',
@@ -103,16 +104,34 @@ id:20,
 text:'Steve Madden'
 }
 ]
-const settings = {
+
+
+function Marcas() {
+  const [slides, SetSlides]=useState(0)
+  function CambioTamano(){
+    if(window.innerWidth<767){
+      SetSlides(5)
+    }else if(window.innerWidth>767 && window.innerWidth<900){
+      SetSlides(8)
+    }else{
+      SetSlides(10)
+    }
+  }
+ useEffect(()=>{
+  CambioTamano();
+  window.addEventListener('resize',CambioTamano);
+  return()=>window.removeEventListener('resize',CambioTamano)
+ },[])
+
+ const settings = {
   autoplay:true,
     infinite: true,
     speed: 5000,
     autoplaySpeed:5000,
-    slidesToShow: 10,
+    slidesToShow: slides,
     slidesToScroll: 1,
     cssEase:"linear"
 };
-function Marcas() {
   return (
     <div className={styles.marcas}>
 <Slider {...settings}>

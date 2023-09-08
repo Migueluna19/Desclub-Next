@@ -18,7 +18,7 @@
             font-family:  Helvetica, sans-serif;
             color: #FFF;
             @media (max-width:767px){
-                font-size: 1.2rem;
+                font-size: 0.8rem;
             }
         }
         p{ 
@@ -27,7 +27,7 @@
             margin: 0;
             font-family:  Helvetica, sans-serif;
             @media (max-width:767px){
-                font-size: 1.2rem;
+                font-size: 0.8rem; 
             }
         }
     }
@@ -37,8 +37,8 @@
             height: 2.7rem;
             margin-bottom: 1rem;
             @media (max-width:767px){
-                width: 16rem;
-                height: 2.3rem;
+                width: 12rem;
+                height: 1.6rem;
              }
         }
     }
@@ -55,8 +55,8 @@
      }
      img{
          @media (max-width:767px){
-             width: 2.3rem;
-             height: 2.3rem;
+             width: 1.5rem;
+             height: 1.5rem;
          }
      }
 }

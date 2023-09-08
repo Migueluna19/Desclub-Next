@@ -27,6 +27,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/empresadesclub": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/empresadesclub.js"
+    ],
+    "/hotdeals": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hotdeals.js"
+    ],
     "/tarjetadesclub": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

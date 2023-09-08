@@ -25,7 +25,7 @@
     width: 100%;
     margin: 0 auto;
     @media (max-width:480px){
-        border-bottom: 3px solid #707070;
+        border-bottom: 2.5px solid #707070;
     }
     label{
         font-size: 1.8rem;
@@ -33,7 +33,7 @@
         color: #707070;
         padding: 0.7rem;
         @media (max-width:480px){
-            font-size: 1.2rem;
+            font-size: 0.8rem;
         }
     }
 }
@@ -47,16 +47,21 @@
     grid-template-columns: 20% 55% 25%;
     padding: 2rem 0;
     @media (max-width:767px){
-        padding: 1rem 0;
+        padding: 0.5rem 0;
         grid-template-columns: 25% 50% 25%;
     }
     .imagen{
         width: 60%;
         margin: 0 auto;
         @media (max-width:480px){
-           width: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
            img{
-            height: 9rem;
+            height: 6rem;
+            width: 6rem;
+            margin: 0 auto;
            }
         }
         @media (min-width:480px) and (max-width:767px){
@@ -82,6 +87,11 @@
         }
     }
     .promocion{
+        @media (max-width:767px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
        h3{
         color: #707070;
         text-align: left;
@@ -91,9 +101,10 @@
         text-transform: uppercase;
         margin-top: 1rem;
         @media (max-width:480px){
-            font-size: 1.5rem;
-            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            margin-top: 0.8rem;
             padding-left: 1rem;
+            padding-bottom: 0.6rem;
         }
         @media(min-width:480px) and (max-width:767px){
             font-size: 1.8rem;
@@ -117,8 +128,8 @@
         font-size: 2rem;
         @media (max-width:480px){
             padding-left: 1rem;
-            font-size: 1.4rem;
-            line-height: 2rem;
+            font-size: 0.8rem;
+            line-height: 1rem;
         }
         @media(min-width:480px) and (max-width:767px){
             font-size: 1.6rem;
@@ -151,9 +162,10 @@
             justify-content: center;
             align-items: center;
             @media (max-width:480px){
-               width: 5.5rem;
-               height: 5.5rem;
+               width: 3.5rem;
+               height: 3.5rem;
                margin: 0 auto;
+               border: 2px solid green;
             }
             @media(min-width:480px) and (max-width:900px){
                 width: 6.5rem;
@@ -165,7 +177,7 @@
                 font-family: 'Gotham-Medium';
                 font-size: 2rem;
                 @media (max-width:480px){
-                    font-size: 1.5rem;
+                    font-size: 0.8rem;
                 }
                 @media(min-width:480px) and (max-width:900px){
                    font-size: 1.8rem;
@@ -182,7 +194,7 @@
                 font-family: 'Gotham-Medium';
                 font-size: 1.5rem;
                 @media (max-width:480px){
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                 }
                 @media(min-width:480px) and (max-width:900px){
                     font-size: 1.2rem;
@@ -330,6 +342,9 @@
 }
 .contenedorresultado{
     height: auto;
+    @media (max-width:900px){
+        height: 65vh;
+    }
     .gridresultado{
         width: 90%;
         margin: 0 auto;
@@ -337,6 +352,7 @@
         align-items: center;
         @media (max-width:480px){
             width: 95%;
+            margin-top: 2rem;
         }
         @media (min-width:767px){
          display: grid;
@@ -355,10 +371,10 @@
             img{
                 height: 26rem;
                 @media (max-width:767px){
-                    height: 16rem;
+                    height: 12rem;
                 }
                 @media (min-width:768px) and (max-width:900px){
-                    height: 20rem;
+                    height: 18rem;
                 }
                 @media (min-width:900px) and (max-width:1200px){
                    height: 24rem;
@@ -369,18 +385,18 @@
             width: 100%;
             @media (max-width:767px){
                 display: grid;
-                grid-template-columns: 30% 70%;
+                grid-template-rows: 30% 70%;
                 width: 90%;
-                margin: 3rem auto 1rem auto;
+                margin: 2rem auto 1rem auto;
             }
             .logo{
                 width: 25%;
                 margin: 0 auto;
                 @media (max-width:767px){
-                    width: 90%;
+                    width: 10rem;
                     display: flex;
                     align-items: center;
-                    margin: 0;
+                    margin: 0 auto;
                 }
                 @media (min-width:768px) and (max-width:900px){
                    width: 35%;
@@ -405,8 +421,9 @@
                     font-size: 2.5rem;
                     margin: 1rem 0;
                     @media (max-width:480px){
-                        font-size: 1.2rem;
-                        line-height: 1.6rem;
+                        font-size: 1rem;
+                        line-height: 1.4rem;
+                        margin: 1rem 0 0.5rem 0;
                     }
                     @media (min-width:480px) and (max-width:767px){
                         font-size: 1.6rem;
@@ -428,7 +445,8 @@
                     margin: 1rem 0;
                     @media (max-width:480px){
                         font-size: 1rem;
-                        line-height: 1.4rem;
+                        line-height: 1.8rem;
+                        margin: 0;
                     }
                     @media (min-width:480px) and (max-width:767px){
                         font-size: 1.4rem;
@@ -451,8 +469,8 @@
         margin: 5rem auto 0 auto;
         padding-bottom: 3rem;
         @media (max-width:767px){
-            width: 80%;
-            margin: 2rem auto;
+            width: 85%;
+            margin: 2rem auto 0 auto;
         }
         @media (min-width:768px) and (max-width:1200px){
             width: 90%;

@@ -1,8 +1,9 @@
 import styles from '../styles/burgerboton.module.scss'
 
-function Burgerboton() {
+function Burgerboton(props) {
   return (
-    <div className={`${styles.icon} ${styles.navicon5}`}>
+    <div onClick={props.handleDesplegar} 
+    className={`${styles.icon} ${styles.navicon5} ${props.desplegar?`${styles.open}`:''}`}>
     <span></span>
     <span></span>
     <span></span>

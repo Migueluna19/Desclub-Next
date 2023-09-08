@@ -2,6 +2,7 @@ import styles from '../../styles/TarjetaDesclub/descubre.module.scss'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState,useEffect } from 'react';
 
 const items1=[
     {
@@ -66,17 +67,31 @@ const items1=[
 },
 ]
 
-const settings = {
+function Carrusel2() {
+    const [slides, SetSlides]=useState(0)
+    function CambioTamano(){
+      if(window.innerWidth<767){
+        SetSlides(4)
+      }else if(window.innerWidth>767 && window.innerWidth<900){
+        SetSlides(5)
+      }else{
+        SetSlides(6)
+      }
+    }
+   useEffect(()=>{
+    CambioTamano();
+    window.addEventListener('resize',CambioTamano);
+    return()=>window.removeEventListener('resize',CambioTamano)
+   },[])
+   const settings = {
     autoplay:true,
     infinite: true,
     speed: 7000,
     autoplaySpeed:7000,
-    slidesToShow: 6,
+    slidesToShow: slides,
     slidesToScroll: -1,
     cssEase:"linear"
   };
-
-function Carrusel2() {
   return (
     <Slider {...settings}>
     {items1.map(item=>{

@@ -3,20 +3,25 @@ import Link from 'next/link'
 import styles from '../styles/headermobile.module.scss'
 import { useState } from 'react';
 import Burgerboton from './burgerboton';
+import { useRouter } from 'next/router'
 
 function Headermobile() {
   const [fijabarra,Setfijabarra]=useState(true);
-  const [desplegar,setDesplegar]=useState(0)
+  const [desplegar,setDesplegar]=useState(false)
+  const router=useRouter()
 
-  function handleDesplegar(value){
-      setDesplegar(value)
+  function handleDesplegar(){
+      setDesplegar(!desplegar)
   }
   return (
     <div>
     <header className={`${styles.contenedorheader} ${styles.fijo}`}>
         <div className={styles.header}>
           <div className={styles.mobilemenu}>
-          <Burgerboton/>
+          <Burgerboton
+          desplegar={desplegar}
+          handleDesplegar={handleDesplegar}
+          />
           </div>    
         <div className={styles.logomarca}>
                 <Link href="/">
@@ -44,7 +49,18 @@ function Headermobile() {
              </div>
         </div>
     </header>
-    
+    <div className={`${styles.sidebar} ${desplegar?`${styles.abrir}`:''}`}>
+       <nav className={styles.navegacion}>
+         <Link href="/tarjetadesclub" className={router.pathname==='/tarjetadesclub'? styles.active:''}
+         >Inicio</Link>
+         <Link href="/directorio" className={router.pathname==='/directorio'? styles.active:''}
+         >Directorio</Link>
+         <Link href="/hotdeals" className={router.pathname==='/hotdeals'? styles.active:''}
+         >Hot Deals</Link>
+         <Link href="/comprar" className={router.pathname==='/comprar'? styles.active:''}
+         >Comprar</Link>
+         </nav>
+      </div>
     </div>
   )
 }

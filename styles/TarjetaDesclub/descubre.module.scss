@@ -9,9 +9,12 @@
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
     @media (max-width:767px){
-        font-size: 3rem;
+        font-size: 1.6rem;
         padding: 1.5rem 0 1rem 0;
     }
+    @media (min-width:767px) and (max-width:900px){
+        font-size: 3rem;
+     }
    }
    .contenedorboton{
     display: flex;
@@ -21,23 +24,23 @@
         margin-right: 0;
     }
     .boton_buscador{
-        width: 25rem;
+        width: 18.5rem;
         display: flex;
         align-items: center;
         margin:1rem 5rem 0 0;
         border-radius: 4rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 1rem;
         background-color:  #FF7400;
         color: #FFF;
         border: none;
-        font-size: 2.3rem;
+        font-size: 2rem;
         font-weight: bold;
         font-family: 'Roboto',sans-serif;
         text-align: left;
         @media (max-width:767px){
-            width: 14rem;
+            width: 11rem;
             margin: 1rem 1rem 0 0;
-            font-size: 1.5rem;
+            font-size: 1rem;
             padding: 0.5rem 1rem;
             text-align: center;
         }
@@ -48,12 +51,12 @@
             font-size: 1.9rem;
          }
         img{
-            margin-left: 1rem;
+            margin-left: 2rem;
             width: 10%;
             @media (max-width:767px){
-                margin-left: 0.5rem;
-                width: 1.5rem;
-                height: 1.5rem;
+                margin-left: 1rem;
+                width: 1rem;
+                height: 1rem;
             }
             @media (min-width:767px) and (max-width:900px){
                 width: 1.8rem;
@@ -83,7 +86,7 @@ overflow: hidden;
     width: calc(100% - 15px) !important;
     @media (max-width:767px){
         width: calc(100% - 5px) !important;
-        height: 6.5rem;
+        height: 8rem;
     }
     @media (min-width:767px) and (max-width:900px){
         height: 11rem;
@@ -111,12 +114,11 @@ overflow: hidden;
         font-family: 'Gotham-Black';
         color: #FFF;
         @media (max-width:767px){
-           font-size: 0.6rem;
-           width: 80%;
+           font-size: 0.9rem;
            line-height: 1rem;
         }
         @media (min-width:767px) and (max-width:900px){
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             line-height: 1.8rem;
             position: absolute;
             left: 0.1rem;

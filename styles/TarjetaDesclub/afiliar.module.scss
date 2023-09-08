@@ -1,5 +1,12 @@
 .principal{
-    background-image: url(../../public/img/tarjetadesclub/fondoafiliar.png);
+    @media (max-width:767px){
+        background-image: url(../../public/img/tarjetadesclub/fondoporqueafiliarmobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-width:768px){
+        background-image: url(../../public/img/tarjetadesclub/fondoafiliar.png);
+    }
     height: auto;
     h1{
         padding: 3rem 0;
@@ -8,7 +15,7 @@
         font-family: 'Gotham-Bold';
         font-size: 6.5rem;
         @media (max-width:767px){
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
          @media (min-width:767px) and (max-width:900px){
         font-size: 5rem;
@@ -28,7 +35,7 @@
     padding-bottom: 5rem;
     @media (max-width:900px){
        grid-template-columns: repeat(2,1fr);
-       gap: 1.5rem;
+       gap: 1rem;
        padding-bottom: 3rem;
     }
     @media (min-width:767px) and (max-width:900px){
@@ -44,6 +51,7 @@
         flex-direction: column;
         @media (max-width:767px){
             padding: 3rem 0 1.5rem 0;
+            border-radius: 1rem;
         }
         @media (min-width:767px) and (max-width:900px){
             padding: 2rem 0 2rem 0;
@@ -58,8 +66,8 @@
             line-height: 3.5rem;
             text-transform: uppercase;
             @media (max-width:767px){
-                font-size: 1.2rem;
-                line-height: 2rem;
+                font-size: 1rem;
+                line-height: 1.4rem;
                 width: 90%;
                 margin: 1rem 0 0.5rem 0;
             }
@@ -81,9 +89,10 @@
                 font-family: 'Gotham-Medium';
                 line-height: 3rem;
                 @media (max-width:767px){
-                    font-size: 1.2rem;
-                    line-height: 1.6rem;
-                    width: 100%;
+                    font-size: 0.7rem;
+                    line-height: 1rem;
+                    width: 65%;
+                    margin: 0 auto;
                 }
                 @media (min-width:767px) and (max-width:900px){
                     font-size: 2rem;
@@ -95,8 +104,8 @@
                 width: 9.5rem;
                 height: 8rem;
                 @media (max-width:767px){
-                    width: 6rem;
-                    height: 5rem;
+                    width: 3rem;
+                    height: 2.4rem;
                     margin-bottom: 0.8rem;
                 }
                 @media (min-width:767px) and (max-width:900px){
@@ -109,8 +118,8 @@
             width: 10rem;
             height: 10rem;
             @media (max-width:767px){
-                width: 5rem;
-                height: 5.3rem;
+                width: 2.3rem;
+                height: 2.4rem;
             }
             @media (min-width:767px) and (max-width:900px){
                 width: 9rem;
@@ -121,8 +130,8 @@
             width: 7.5rem;
             height: 9.5rem;
             @media (max-width:767px){
-                width: 5rem;
-                height: 6rem;
+                width: 1.7rem;
+                height: 2.4rem;
             }
             @media (min-width:767px) and (max-width:900px){
                 width: 7rem;
@@ -133,8 +142,8 @@
             width: 8.5rem;
             height: 8rem;
             @media (max-width:767px){
-                width: 5.5rem;
-                height: 5rem;
+                width: 3rem;
+                height: 2.3rem;
                 margin-bottom: 1rem;
             }
             @media (min-width:767px) and (max-width:900px){

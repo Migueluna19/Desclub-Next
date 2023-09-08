@@ -6,23 +6,14 @@ import { useState,useEffect } from "react"
 
 
 
-function Directorio() {
-  const [width, Setwidth]=useState(window.innerWidth)
-  function CambioTamano(){
-    Setwidth(window.innerWidth);
-  }
-  useEffect(()=>{
-    window.addEventListener('resize',CambioTamano);
-    return()=>{
-      window.removeEventListener('resize',CambioTamano)
-    }
-  })
+function Directorio() { 
+ 
   return (
     <Layout
     title={'Directorio de Marcas'}
     desctiption={'Nuestras Marcas y Mucho más'}
     >
-   {width >=768? <Marcas/>:''}
+   <Marcas/>
     <div className={styles.contenedorfondo}>
     <Nuestrodirectorio/>
     </div>

@@ -6,39 +6,19 @@ const descuentos=[{
     text:'Cupon Recorcholis'
 },
 {
-    image:'recorcholis.png',
+    image:'upa.png',
     id:2,
-    text:'Cupon Recorcholis'
+    text:'Cupon Upa'
 },
 {
-    image:'recorcholis.png',
+    image:'suburbia.png',
     id:3,
-    text:'Cupon Recorcholis'
+    text:'Cupon Suburbia'
 },
 {
-    image:'recorcholis.png',
+    image:'bioparque.png',
     id:4,
-    text:'Cupon Recorcholis'
-},
-{
-    image:'recorcholis.png',
-    id:5,
-    text:'Cupon Recorcholis'
-},
-{
-    image:'recorcholis.png',
-    id:6,
-    text:'Cupon Recorcholis'
-},
-{
-    image:'recorcholis.png',
-    id:7,
-    text:'Cupon Recorcholis'
-},
-{
-    image:'recorcholis.png',
-    id:8,
-    text:'Cupon Recorcholis'
+    text:'Cupon Bioparque'
 }
 ]
 function Cupones() {

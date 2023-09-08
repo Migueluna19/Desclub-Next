@@ -11,29 +11,28 @@
 }
 .header{
     background-color: #FFF;
-    height: 8rem;
+    height: 4.5rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: max-content;
     display: flex;
     align-items: center;
     gap: 1rem;
     width: 100%;
-    padding: 0.7rem 0;
+    padding: 0.7rem 0; 
 }
 .logomarca{
     width: 65%;
     img{
-        width: 95%;
-        max-width: 25rem;
-        height: 3.1rem;
-        @media (max-width:767px){
-            margin: 0 auto;
-        }
+        width: 9.1rem;
+        height: 1.7rem;
         @media (min-width:768px) and (max-width:900px){
            max-width: 20rem;
         }
+    }
+    .logoempresa{
+        width: 14rem;
+        height: 1.9rem;
     }
 }
 .mobilemenu{
@@ -57,14 +56,14 @@
 .redes{
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
     margin-right: 1rem;
     img{
         @media (max-width:480px){
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 1.8rem;
+            height: 1.8rem;
         }
         @media (min-width:480px)and (max-width:768px){
             width: 3rem;
@@ -79,4 +78,52 @@
 .boton{
     background: none;
     border: none;
+}
+
+.sidebar{
+    background-color: #F7F7F7;
+    width: 22rem;
+    left: -30rem;
+    height: 80%;
+    position: fixed;
+    top: 4.4rem;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+    border-bottom-right-radius: 8rem;
+    z-index: 30;
+    border-bottom:3px solid #D8D8D8;
+        box-shadow: 0px 3px 6px #00000029;
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 4rem;
+        a{
+            position: relative;
+            text-align: left;
+            color: #838383;
+            font-size: 1.6rem;
+            display: block;
+            font-family: 'Gotham-Book';
+            text-transform: uppercase;
+            margin-left: 3rem;
+            height: 4rem;
+            border-bottom: 1px solid #DEDEDE;
+            width: 80%;
+            margin-bottom: 2rem;
+            &:hover{
+                border-radius: 0.5rem;
+                transition: 0.5s;
+                font-size: 1.8rem;
+                cursor: pointer;
+            }
+    }
+    a:last-of-type{
+        border-bottom: none;
+    }
+}
+}
+.abrir{
+    left: 0;
 }

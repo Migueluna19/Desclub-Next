@@ -17,8 +17,8 @@
             width: 10rem;
             height: 8rem;
             @media (max-width:767px){
-                width: 4rem;
-                height: 3.4rem;
+                width: 2.3rem;
+                height: 1.9rem;
                 margin-bottom: 0.5rem;
             }
             @media (min-width:767px) and (max-width:900px){
@@ -30,8 +30,8 @@
             width: 8rem;
             height: 10rem;
             @media (max-width:767px){
-                width: 3.2rem;
-                height: 4rem;
+                width: 1.5rem;
+                height: 1.9rem;
             }
             @media (min-width:767px) and (max-width:900px){
                 width: 6rem;
@@ -42,8 +42,8 @@
             width: 8rem;
             height: 9rem;
             @media (max-width:767px){
-                width: 3rem;
-                height: 4rem;
+                width: 1.6rem;
+                height: 1.9rem;
             }
             @media (min-width:767px) and (max-width:900px){
                 width: 6.5rem;
@@ -58,9 +58,10 @@
             width: 60%;
             line-height: 3.5rem;
             @media (max-width:767px){
-                font-size: 1.2rem;
-                line-height: 1.5rem;
+                font-size: 0.7rem;
+                line-height: 0.9rem;
                 width: 90%;
+                margin: 0.4rem 0;
             }
             @media (min-width:767px) and (max-width:900px){
                 font-size: 2rem;
@@ -76,9 +77,10 @@
             width: 60%;
             line-height: 3.5rem;
             @media(max-width:767px){
-                font-size: 1.2rem;
-                line-height: 1.5rem;
+                font-size: 0.7rem;
+                line-height: 0.9rem;
                 width: 90%;
+                margin: 0.4rem 0;
             }
             @media (min-width:767px) and (max-width:900px){
                 font-size: 2rem;
@@ -116,6 +118,10 @@
         img{
             width: 100%;
             height: 100%;
+            margin: 0 auto;
+            @media (max-width:480px){
+                width: 98%;
+            }
         }
     }
     .contenedortexto{
@@ -124,7 +130,7 @@
         top: 5rem;
         left: 2.5rem;
         @media (max-width:480px){
-            top: 1.2rem;
+            top: 1.6rem;
             left: 1rem;
             width: 95%;
         }
@@ -149,8 +155,8 @@
             text-align: left;
             font-family: 'Gotham-Black';
             @media (max-width:480px){
-              font-size: 1rem;
-              line-height: 1.2rem;
+              font-size: 0.7rem;
+              line-height: 1rem;
               font-family: 'Gotham-Medium';
             }
             @media (min-width:480px) and (max-width:767px){

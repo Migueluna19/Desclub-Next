@@ -6,16 +6,16 @@ import { useEffect, useState } from "react"
 
 
 function Layoutempresa({children,title='',desctiption=''}) {
-  const [width, Setwidth]=useState(window.innerWidth)
+  const [width, Setwidth]=useState(0)
+
   function CambioTamano(){
     Setwidth(window.innerWidth);
   }
-  useEffect(()=>{
-    window.addEventListener('resize',CambioTamano);
-    return()=>{
-      window.removeEventListener('resize',CambioTamano)
-    }
-  })
+ useEffect(()=>{
+  CambioTamano();
+  window.addEventListener('resize',CambioTamano);
+  return()=>window.removeEventListener('resize',CambioTamano)
+ },[])
   return (
     <>
     <Head>
